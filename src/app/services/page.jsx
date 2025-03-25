@@ -1,74 +1,92 @@
-"use client"; 
 
-import { Input } from '@/components/ui/input';
-import React, { useState } from 'react';
-import { IoSearch } from 'react-icons/io5';
+"use client"; // This must be at the very top
 
-import { BiSolidCategory } from 'react-icons/bi';
-import { FaLocationPin } from "react-icons/fa6";
+import { useState } from "react";
+import { FaBars, FaAngleDown, FaAngleRight } from "react-icons/fa";
+// import Nav from "./nav"; // Assuming the Nav component is properly exported
 
-const Nav = () => {
-    const [searchTerm, setSearchTerm] = useState('');
+const categories = [
+  {
+    name: "ভাড়া  ",
+    subcategories: ["গ্রহণ ", "প্রদান","বাড়ি ","যানবাহন"],
+  },
+  {
+    name: "ভ্রমণ  ",
+    subcategories: ["হোটেল", "ট্যুর প্যাকেজ", "ট্রাভেল এজেন্ট"],
+  },
+  {
+    name: "স্বাস্থ্য  ",
+    subcategories: ["ডাক্তার", "হাসপাতাল", "ওষুধ"],
+  },
+  {
+    name: "নর-নারী সুন্দর",
+    subcategories: ["পোশাক", "সৌন্দর্য পণ্য", "স্বাস্থ্য ও সৌন্দর্য"],
+  },
+  {
+    name: "ক্রয় বিক্রয় সেবা    ",
+    subcategories: ["Smart Watches", "Headphones", "Power Banks"],
+  },
+  {
+    name: "আধুনিক বিজ্ঞাপন  ",
+    subcategories: [" ফেসবুক", " ইউটিউব", "ইনস্টাগ্রাম"],
+  },
+  {
+    name: "প্রযুক্তি      ",
+    subcategories: ["ওয়েব ডেভেলপমেন্ট", "মোবাইল অ্যাপ্লিকেশন", "গ্রাফিক্স ডিজাইন"],
+  },
+//   { name: "WALLET" },
+//   { name: "BELT" },
+//   { name: "ACCESSORIES" },
+//   { name: "All Categories" },
+];
 
-    const handleSearchChange = (event) => {
-        setSearchTerm(event.target.value);
-    };
+export default function Sidebar() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [openCategories, setOpenCategories] = useState({});
 
-    const handleSearchSubmit = () => {
-        if (!searchTerm.trim()) {
-            console.log('Please enter a search term.');
-            return;
-        }
-        console.log('Searching for:', searchTerm);
-       
-    };
+  const toggleCategory = (category) => {
+    setOpenCategories((prev) => ({
+      ...prev,
+      [category]: !prev[category],
+    }));
+  };
 
-    return (
-        <nav className='flex justify-evenly items-center p-4 bg-gray-100'>
-            <div className='flex gap-20'>
-               
-                <div className='flex flex-col'>
-                    <button
-                        className="flex items-center gap-2 p-2 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-200"
-                        aria-label="Select Location"
-                    >
-                        <FaLocationPin className='text-2xl text-green-700' />
-                        অবস্থান নির্বাচন করুন
-                    </button>
-                </div>
+  return (
+    <div className="flex">
+      {/* Sidebar */}
+      <div className={`bg-white text-black w-64 p-4 transition-all ${isSidebarOpen ? "block" : "hidden"} md:block`}>
+        <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="md:hidden text-white mb-4">
+          <FaBars size={20} />
+        </button>
+        <h2 className="text-lg text-green-700 font-bold">সব বিভাগ</h2>
+        <ul className="mt-4">
+          {categories.map((category, index) => (
+            <li key={index} className="py-2">
+              <div className="flex justify-between items-center cursor-pointer px-4 py-2 hover:bg-green-700 rounded-md" onClick={() => toggleCategory(category.name)}>
+                <span>{category.name}</span>
+                {category.subcategories && (openCategories[category.name] ? <FaAngleDown /> : <FaAngleRight />)}
+              </div>
+              {category.subcategories && openCategories[category.name] && (
+                <ul className="ml-6 mt-2 border-l border-white pl-4">
+                  {category.subcategories.map((sub, i) => (
+                    <li key={i} className="py-1 text-sm hover:underline cursor-pointer">{sub}</li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
 
-                {/* Category Selection Button */}
-                <div className='flex flex-col'>
-                    <button
-                        className="flex items-center gap-2 p-2 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-200"
-                        aria-label="Select Category"
-                    >
-                        <BiSolidCategory className='text-2xl' />
-                        শ্রেণী নির্বাচন করুন
-                    </button>
-                </div>
-            </div>
+      {/* Main Content */}
+      <div className="flex-1 p-6">
+        <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="md:hidden p-2 bg-green-600 text-white rounded">
+          <FaBars size={20} />
+        </button>
+        <h1 className="text-2xl font-bold">Main Content Area</h1>
+        <p>This is where your main content goes.</p>
+      </div>
+    </div>
+  );
+}
 
-            {/* Search Input and Button on the right side */}
-            <div className="relative ml-10" style={{ width: 'auto' }}>
-                <Input
-                    type="text"
-                    value={searchTerm}
-                    onChange={handleSearchChange}
-                    className="w-full py-5 pl-5 pr-16 rounded-full bg-white/70 shadow-lg backdrop-blur-md focus:ring-2 focus:ring-green-500 outline-none transition-all"
-                    placeholder="আপনি কি খুঁজছেন?"
-                    style={{ minWidth: '400px', maxWidth: '600px' }} // Adjust sizes accordingly
-                />
-                <button
-                    className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-green-600 text-white p-2 rounded-full hover:bg-red-700 transition-all"
-                    aria-label="Search"
-                    onClick={handleSearchSubmit}
-                >
-                    <IoSearch className="text-xl" />
-                </button>
-            </div>
-        </nav>
-    );
-};
-
-export default Nav;
