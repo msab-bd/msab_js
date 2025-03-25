@@ -5,11 +5,12 @@ import { notFound } from "next/navigation";
 
 
 
-const Page = ({ params }) => {
-  const { id } = params; 
-  const data = blogData.find((item) => item?.id === id);
+const Page = async({ params }) => {
 
-  // Handle 404 if blog post not found
+
+  const { id } = await params; 
+
+  const data = await blogData.find((item) => item?.id == id);
   if (!data) return notFound();
 
   const { subTitle, category, description, image } = data;
