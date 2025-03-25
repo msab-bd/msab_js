@@ -8,8 +8,7 @@ const  dbConnect = async () => {
        if(!uri){
         throw new Error("DB_URI is not defined");
        } ;
-       if ()
-
+       
        
     }catch(error){
         console.log(error);
