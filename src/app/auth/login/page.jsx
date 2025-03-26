@@ -13,6 +13,8 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Image from "next/image";
 import Link from "next/link";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 const LoginPage = () => {
   const {
@@ -21,8 +23,23 @@ const LoginPage = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log("Login Data:", data);
+  const onSubmit = async (formData) => {
+    console.log("Submitting data:", formData);
+
+    try {
+      const response = await axios.post("http://localhost:3000/api/user", formData, {
+        headers: { "Content-Type": "application/json" }, // Ensure JSON request
+      });
+
+      if (response.data.success) {
+        toast.success("Login successful!");
+      } else {
+        toast.error(response.data.message || "Login failed");
+      }
+    } catch (error) {
+      console.error("Login error:", error);
+      toast.error(error.response?.data?.error || "Something went wrong");
+    }
   };
 
   return (
@@ -43,31 +60,28 @@ const LoginPage = () => {
         <CardContent>
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div className="flex flex-col space-y-1.5">
-              <Label htmlFor="emailPhone">ইমেইল বা ফোন নম্বর</Label>
+              <Label htmlFor="email">ইমেইল</Label>
               <Input
-                id="emailPhone"
-                {...register("emailPhone", { required: "ফিল্ডটি আবশ্যক" })}
-                placeholder="আপনার ইমেইল বা ফোন নম্বর লিখুন"
+                id="email"
+                {...register("email", { required: "ইমেইল আবশ্যক" })}
+                placeholder="আপনার ইমেইল লিখুন"
               />
-              {errors.emailPhone && (
-                <p className="text-red-600 text-sm">{errors.emailPhone.message}</p>
+              {errors.email && (
+                <p className="text-red-600 text-sm">{errors.email.message}</p>
               )}
             </div>
 
             <div className="flex flex-col space-y-1.5">
-              <Label htmlFor="password">পাসওয়ার্ড</Label>
+              <Label htmlFor="name">নাম</Label>
               <Input
-                id="password"
-                type="password"
-                {...register("password", { required: "পাসওয়ার্ড আবশ্যক" })}
-                placeholder="আপনার পাসওয়ার্ড লিখুন"
+                id="name"
+                type="text"
+                {...register("name", { required: "নাম আবশ্যক" })}
+                placeholder="আপনার নাম লিখুন"
               />
-              {errors.password && (
-                <p className="text-red-600 text-sm">{errors.password.message}</p>
+              {errors.name && (
+                <p className="text-red-600 text-sm">{errors.name.message}</p>
               )}
-              <Link href="/forgot-password" className="text-sm hover:underline text-blue-600">
-                আপনি কি পাসওয়ার্ড ভুলে গেছেন?
-              </Link>
             </div>
 
             <div className="flex justify-between">
