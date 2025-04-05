@@ -46,7 +46,7 @@ const Header = () => {
             />
             <NavItem href="#" text="সেবাসমূহ" />
             <NavItem href="/blog" text="ব্লগ" />
-            <NavItem href="#" text="যোগাযোগ" />
+            <NavItem href="/contact" text="যোগাযোগ" />
           </nav>
 
           {/* Login Button */}
