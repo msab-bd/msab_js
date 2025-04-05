@@ -1,4 +1,4 @@
-import Contact from "@/components/contact/page";
+
 import AboutSection from "@/pages/aboutSection";
 import FaqSection from "@/pages/home/FaqSection";
 import Hero from "@/pages/home/hero";
