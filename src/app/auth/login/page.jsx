@@ -14,7 +14,7 @@ import { Label } from "@/components/ui/label";
 import Image from "next/image";
 import Link from "next/link";
 import axios from "axios";
-import toast from "react-hot-toast";
+import toast from "react-hot-toast";  
 
 const LoginPage = () => {
   const {

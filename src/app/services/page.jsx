@@ -1,44 +1,75 @@
 
 "use client"; // This must be at the very top
 
+import Link from "next/link";
 import { useState } from "react";
-import { FaBars, FaAngleDown, FaAngleRight } from "react-icons/fa";
+import { FaAngleDown, FaAngleRight, FaBars } from "react-icons/fa";
 // import Nav from "./nav"; // Assuming the Nav component is properly exported
 
 const categories = [
   {
-    name: "ভাড়া  ",
-    subcategories: ["গ্রহণ ", "প্রদান","বাড়ি ","যানবাহন"],
+    name: "ভাড়া",
+    subcategories: [
+      { bn: "গ্রহণ", en: "Rent In", href: "rent-in" },
+      { bn: "প্রদান", en: "Rent Out", href: "rent-out" },
+      { bn: "বাড়ি", en: "House", href: "house" },
+      { bn: "যানবাহন", en: "Vehicle", href: "vehicle" },
+    ],
   },
   {
-    name: "ভ্রমণ  ",
-    subcategories: ["হোটেল", "ট্যুর প্যাকেজ", "ট্রাভেল এজেন্ট"],
+    name: "ভ্রমণ",
+    subcategories: [
+      { bn: "হোটেল", en: "Hotel", href: "hotel" },
+      { bn: "ট্যুর প্যাকেজ", en: "Tour Package", href: "tour-package" },
+      { bn: "ট্রাভেল এজেন্ট", en: "Travel Agent", href: "travel-agent" },
+    ],
   },
   {
-    name: "স্বাস্থ্য  ",
-    subcategories: ["ডাক্তার", "হাসপাতাল", "ওষুধ"],
+    name: "স্বাস্থ্য",
+    subcategories: [
+      { bn: "ডাক্তার", en: "Doctor", href: "doctor" },
+      { bn: "হাসপাতাল", en: "Hospital", href: "hospital" },
+      { bn: "ওষুধ", en: "Medicine", href: "medicine" },
+    ],
   },
   {
     name: "নর-নারী সুন্দর",
-    subcategories: ["পোশাক", "সৌন্দর্য পণ্য", "স্বাস্থ্য ও সৌন্দর্য"],
+    subcategories: [
+      { bn: "পোশাক", en: "Clothing", href: "clothing" },
+      { bn: "সৌন্দর্য পণ্য", en: "Beauty Products", href: "beauty-products" },
+      { bn: "স্বাস্থ্য ও সৌন্দর্য", en: "Health & Beauty", href: "health-beauty" },
+    ],
   },
   {
-    name: "ক্রয় বিক্রয় সেবা    ",
-    subcategories: ["Smart Watches", "Headphones", "Power Banks"],
+    name: "ক্রয় বিক্রয় সেবা",
+    subcategories: [
+      { bn: "Smart Watches", en: "Smart Watches", href: "smart-watches" },
+      { bn: "Headphones", en: "Headphones", href: "headphones" },
+      { bn: "Power Banks", en: "Power Banks", href: "power-banks" },
+    ],
   },
   {
-    name: "আধুনিক বিজ্ঞাপন  ",
-    subcategories: [" ফেসবুক", " ইউটিউব", "ইনস্টাগ্রাম"],
+    name: "আধুনিক বিজ্ঞাপন",
+    subcategories: [
+      { bn: "ফেসবুক", en: "Facebook", href: "facebook" },
+      { bn: "ইউটিউব", en: "YouTube", href: "youtube" },
+      { bn: "ইনস্টাগ্রাম", en: "Instagram", href: "instagram" },
+    ],
   },
   {
-    name: "প্রযুক্তি      ",
-    subcategories: ["ওয়েব ডেভেলপমেন্ট", "মোবাইল অ্যাপ্লিকেশন", "গ্রাফিক্স ডিজাইন"],
+    name: "প্রযুক্তি",
+    subcategories: [
+      { bn: "ওয়েব ডেভেলপমেন্ট", en: "Web Development", href: "web-development" },
+      { bn: "মোবাইল অ্যাপ্লিকেশন", en: "Mobile Application", href: "mobile-application" },
+      { bn: "গ্রাফিক্স ডিজাইন", en: "Graphics Design", href: "graphics-design" },
+    ],
   },
+];
+
 //   { name: "WALLET" },
 //   { name: "BELT" },
 //   { name: "ACCESSORIES" },
 //   { name: "All Categories" },
-];
 
 export default function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -54,7 +85,7 @@ export default function Sidebar() {
   return (
     <div className="flex">
       {/* Sidebar */}
-      <div className={`bg-white text-black w-64 p-4 transition-all ${isSidebarOpen ? "block" : "hidden"} md:block`}>
+      <div className={`bg-white text-black  w-64 p-4 transition-all ${isSidebarOpen ? "block" : "hidden"} md:block`}>
         <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="md:hidden text-white mb-4">
           <FaBars size={20} />
         </button>
@@ -62,14 +93,16 @@ export default function Sidebar() {
         <ul className="mt-4">
           {categories.map((category, index) => (
             <li key={index} className="py-2">
-              <div className="flex justify-between items-center cursor-pointer px-4 py-2 hover:bg-green-700 rounded-md" onClick={() => toggleCategory(category.name)}>
+              <div className="flex justify-between items-center cursor-pointer px-4 py-2 hover:bg-green-700 hover:text-white rounded-md" onClick={() => toggleCategory(category.name)}>
                 <span>{category.name}</span>
                 {category.subcategories && (openCategories[category.name] ? <FaAngleDown /> : <FaAngleRight />)}
               </div>
               {category.subcategories && openCategories[category.name] && (
                 <ul className="ml-6 mt-2 border-l border-white pl-4">
                   {category.subcategories.map((sub, i) => (
-                    <li key={i} className="py-1 text-sm hover:underline cursor-pointer">{sub}</li>
+                    <Link key={i} href={`/services/${sub.href}`}>
+                      <li  className="py-1 text-sm hover:underline cursor-pointer">{sub.bn}</li>
+                    </Link>
                   ))}
                 </ul>
               )}
