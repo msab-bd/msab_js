@@ -44,7 +44,7 @@ const Header = () => {
               icon={<IoHome className="text-red-700" />}
               text="হোম"
             />
-            <NavItem href="#" text="সেবাসমূহ" />
+            <NavItem href="/services" text="সেবাসমূহ" />
             <NavItem href="/blog" text="ব্লগ" />
             <NavItem href="#" text="যোগাযোগ" />
           </nav>
