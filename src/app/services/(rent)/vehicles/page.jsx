@@ -5,7 +5,7 @@ import vehiclesData from '@/utils/vehiclesData'
 import VehicleCard from '@/components/allCard/vehicleCard'
 
 const page = () => {
-  console.log('vehiclesData:', vehiclesData);
+
 
   return (
     <div className='w-11/12 mx-auto md:w-10/12'>
