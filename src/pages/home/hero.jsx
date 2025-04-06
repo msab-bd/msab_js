@@ -10,10 +10,13 @@ import "swiper/css/navigation";
 
 const Hero = () => {
   const images = [
-    "/asset/slider_1.png",
-    "/asset/slider_2.png",
-    "/asset/slider_1.png",
-    "/asset/slider_2.png",
+    "https://i.ibb.co.com/mrdQznXT/7367536-3646377.jpg",
+    "https://i.ibb.co.com/0RnwrXXk/26413004-7196188.jpg",
+    "https://i.ibb.co.com/wFBR7LFC/1173998-132943-OS5-KR7-449.jpg",
+    
+    "https://i.ibb.co.com/ynd9MRjH/7118797-3426296.jpg",
+    "https://i.ibb.co.com/s9PNJPXH/9319770-4136942.jpg",
+    
   ];
 
   return (
