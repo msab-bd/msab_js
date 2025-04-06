@@ -1,9 +1,24 @@
 import React from 'react'
 
+
+import vehiclesData from '@/utils/vehiclesData'
+import VehicleCard from '@/components/allCard/vehicleCard'
+
 const page = () => {
+  console.log('vehiclesData:', vehiclesData);
+
   return (
-    <div>page</div>
-  )
-}
+    <div className='w-11/12 mx-auto md:w-10/12'>
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 py-10">
+        {vehiclesData.map((item, index) => (
+          <div key={item.id}>
+            <VehicleCard item={item} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default page
+
