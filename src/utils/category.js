@@ -12,8 +12,8 @@ const categories = [
     name: "ভ্রমণ",
     subcategories: [
       { bn: "হোটেল", en: "Hotel", href: "hotel" },
-      { bn: "ট্যুর প্যাকেজ", en: "Tour Package", href: "tour-package" },
-      { bn: "ট্রাভেল এজেন্ট", en: "Travel Agent", href: "travel-agent" },
+      { bn: "ট্যুর প্যাকেজ", en: "Tour Package", href: "tour" },
+      { bn: "ট্রাভেল এজেন্ট", en: "Travel Agent", href: "travelAgent" },
     ],
   },
   {
@@ -35,9 +35,9 @@ const categories = [
   {
     name: "ক্রয় বিক্রয় সেবা",
     subcategories: [
-      { bn: "Smart Watches", en: "Smart Watches", href: "smart-watches" },
-      { bn: "Headphones", en: "Headphones", href: "headphones" },
-      { bn: "Power Banks", en: "Power Banks", href: "power-banks" },
+      { bn: "স্মার্ট ঘড়ি", en: "Smart Watches", href: "smart-watches" },
+      { bn: "হেডফোন ", en: "Headphones", href: "headphones" },
+      { bn: "পাওয়ার ব্যাংক", en: "Power Banks", href: "power-banks" },
     ],
   },
   {
