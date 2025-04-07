@@ -1,6 +1,5 @@
 import HouseRentCard from '@/components/allCard/HouseRentCard'
 import houseData from '@/utils/cardData'
-import { Item } from '@radix-ui/react-accordion'
 
 const page = () => {
     return (
