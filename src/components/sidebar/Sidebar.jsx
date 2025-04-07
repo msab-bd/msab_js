@@ -17,19 +17,18 @@ const Sidebar = ({ className }) => {
         }));
     };
     return (
-        <div className={cn("w-64 bg-card border-r h-screen sticky top-0 pt-20", className)}>
+        <div className={cn("w-56 bg-card border-r h-screen sticky top-0 pt-20", className)}>
             <div className="p-4 border-b">
-                <h2 className="text-lg font-semibold">Filters</h2>
+            <h2 className="text-lg text-green-700 font-bold">সব বিভাগ</h2>
             </div>
 
-            <ScrollArea className="h-[calc(100vh-60px)]">
+            <ScrollArea className="">
                 <div className="flex">
                     {/* Sidebar */}
-                    <div className={`bg-white text-black  w-64 p-4 transition-all ${isSidebarOpen ? "block" : "hidden"} md:block`}>
+                    <div className={`bg-white text-black  w-56 p-4 transition-all ${isSidebarOpen ? "block" : "hidden"} md:block`}>
                         <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="md:hidden text-white mb-4">
                             <FaBars size={20} />
                         </button>
-                        <h2 className="text-lg text-green-700 font-bold">সব বিভাগ</h2>
                         <ul className="mt-4">
                             {categories.map((category, index) => (
                                 <li key={index} className="py-2">
