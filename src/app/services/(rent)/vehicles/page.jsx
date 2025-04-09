@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import vehiclesData from '@/utils/vehiclesData'
-import VehicleCard from '@/components/allCard/vehicleCard'
+import VehicleCard from '@/components/allCard/VehicleCard'
 
 const page = () => {
 

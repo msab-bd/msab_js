@@ -2,7 +2,7 @@
 
 import React from 'react';
 import travelAgents from '@/utils/travelAgentData';
-import TravelAgentCard from '@/components/allCard/travelAgentCard';
+import TravelAgentCard from '@/components/allCard/TravelAgentCard';
 
 const Page = () => {
 
