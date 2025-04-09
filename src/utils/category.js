@@ -35,8 +35,8 @@ const categories = [
   {
     name: "ক্রয় বিক্রয় সেবা",
     subcategories: [
-      { bn: "স্মার্ট ঘড়ি", en: "Smart Watches", href: "smart-watches" },
-      { bn: "হেডফোন ", en: "Headphones", href: "headphones" },
+      { bn: "স্মার্ট ঘড়ি", en: "Smart Watches", href: "smartWatches" },
+      { bn: "হেডফোন ", en: "Headphones", href: "headPhone" },
       { bn: "পাওয়ার ব্যাংক", en: "Power Banks", href: "power-banks" },
     ],
   },
