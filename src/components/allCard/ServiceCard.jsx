@@ -20,6 +20,7 @@ const ServiceCard = ({ item }) => {
                         <Button >View Details</Button>
                         <Button >Add to Cart</Button>
                     </div>
+                    
                 </div>
                 <div className="">
                     <img src={image} alt="" />
