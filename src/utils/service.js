@@ -516,7 +516,8 @@ const medicineData = [
     expiry_date: "2026-01-15",
     description: "Relieves pain and reduces fever.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/jPMr51ms/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-0-2.jpg"
+    image:
+      "https://i.ibb.co.com/jPMr51ms/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-0-2.jpg",
   },
   {
     id: "med002",
@@ -529,7 +530,8 @@ const medicineData = [
     expiry_date: "2025-12-01",
     description: "Treats bacterial infections.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/WWQ1SN64/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-0-1.jpg"
+    image:
+      "https://i.ibb.co.com/WWQ1SN64/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-0-1.jpg",
   },
   {
     id: "med003",
@@ -542,7 +544,8 @@ const medicineData = [
     expiry_date: "2026-06-30",
     description: "Allergy relief for runny nose, sneezing, etc.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/7xcFc89w/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-1-1.jpg"
+    image:
+      "https://i.ibb.co.com/7xcFc89w/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-1-1.jpg",
   },
   {
     id: "med004",
@@ -555,7 +558,8 @@ const medicineData = [
     expiry_date: "2025-10-20",
     description: "Treats acid reflux and ulcers.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/0jrhbqbZ/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-2-1.jpg"
+    image:
+      "https://i.ibb.co.com/0jrhbqbZ/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-2-1.jpg",
   },
   {
     id: "med005",
@@ -568,7 +572,8 @@ const medicineData = [
     expiry_date: "2026-02-28",
     description: "Controls blood sugar levels.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/0R96qgTj/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-3-1.jpg"
+    image:
+      "https://i.ibb.co.com/0R96qgTj/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-3-1.jpg",
   },
   {
     id: "med006",
@@ -581,7 +586,8 @@ const medicineData = [
     expiry_date: "2025-09-01",
     description: "Treats high blood pressure and chest pain.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/Zzc89KDw/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-3.jpg"
+    image:
+      "https://i.ibb.co.com/Zzc89KDw/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-3.jpg",
   },
   {
     id: "med007",
@@ -594,7 +600,8 @@ const medicineData = [
     expiry_date: "2026-01-01",
     description: "Used for treating high blood pressure.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/NMFz4KJ/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-2.jpg"
+    image:
+      "https://i.ibb.co.com/NMFz4KJ/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-2.jpg",
   },
   {
     id: "med008",
@@ -607,7 +614,8 @@ const medicineData = [
     expiry_date: "2026-03-10",
     description: "Prevents asthma symptoms and allergies.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/zT9Ckhf6/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-1.jpg"
+    image:
+      "https://i.ibb.co.com/zT9Ckhf6/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-1.jpg",
   },
   {
     id: "med009",
@@ -620,7 +628,8 @@ const medicineData = [
     expiry_date: "2026-07-01",
     description: "Relieves hay fever and allergy symptoms.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/PG3K5hbG/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-0.jpg"
+    image:
+      "https://i.ibb.co.com/PG3K5hbG/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-0.jpg",
   },
   {
     id: "med010",
@@ -633,7 +642,8 @@ const medicineData = [
     expiry_date: "2025-11-25",
     description: "Treats gastroesophageal reflux disease (GERD).",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/MxknkzC6/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-3-4.jpg"
+    image:
+      "https://i.ibb.co.com/MxknkzC6/Leonardo-Phoenix-10-Create-a-highquality-product-image-of-a-me-3-4.jpg",
   },
   {
     id: "med021",
@@ -646,7 +656,7 @@ const medicineData = [
     expiry_date: "2026-03-15",
     description: "Used to treat bacterial infections.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample1.jpg"
+    image: "https://i.ibb.co.com/sample1.jpg",
   },
   {
     id: "med022",
@@ -659,7 +669,7 @@ const medicineData = [
     expiry_date: "2025-12-01",
     description: "Reduces cholesterol levels.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample2.jpg"
+    image: "https://i.ibb.co.com/sample2.jpg",
   },
   {
     id: "med023",
@@ -672,7 +682,7 @@ const medicineData = [
     expiry_date: "2026-08-10",
     description: "Helps build and maintain strong bones.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample3.jpg"
+    image: "https://i.ibb.co.com/sample3.jpg",
   },
   {
     id: "med024",
@@ -685,7 +695,7 @@ const medicineData = [
     expiry_date: "2026-01-25",
     description: "Relieves allergy symptoms.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample4.jpg"
+    image: "https://i.ibb.co.com/sample4.jpg",
   },
   {
     id: "med025",
@@ -698,7 +708,7 @@ const medicineData = [
     expiry_date: "2025-10-30",
     description: "Treats bacterial infections.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample5.jpg"
+    image: "https://i.ibb.co.com/sample5.jpg",
   },
   {
     id: "med026",
@@ -711,7 +721,7 @@ const medicineData = [
     expiry_date: "2026-07-20",
     description: "Supports red blood cell formation.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample6.jpg"
+    image: "https://i.ibb.co.com/sample6.jpg",
   },
   {
     id: "med027",
@@ -724,7 +734,7 @@ const medicineData = [
     expiry_date: "2026-04-01",
     description: "Treats thyroid hormone deficiency.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample7.jpg"
+    image: "https://i.ibb.co.com/sample7.jpg",
   },
   {
     id: "med028",
@@ -737,7 +747,7 @@ const medicineData = [
     expiry_date: "2026-05-01",
     description: "Reduces stomach acid.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample8.jpg"
+    image: "https://i.ibb.co.com/sample8.jpg",
   },
   {
     id: "med029",
@@ -750,7 +760,7 @@ const medicineData = [
     expiry_date: "2026-01-15",
     description: "Treats nausea and vomiting.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample9.jpg"
+    image: "https://i.ibb.co.com/sample9.jpg",
   },
   {
     id: "med030",
@@ -763,7 +773,7 @@ const medicineData = [
     expiry_date: "2026-06-20",
     description: "Used for treating high blood pressure.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample10.jpg"
+    image: "https://i.ibb.co.com/sample10.jpg",
   },
   {
     id: "med031",
@@ -776,7 +786,7 @@ const medicineData = [
     expiry_date: "2026-09-10",
     description: "Used for magnesium deficiency.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample11.jpg"
+    image: "https://i.ibb.co.com/sample11.jpg",
   },
   {
     id: "med032",
@@ -789,7 +799,7 @@ const medicineData = [
     expiry_date: "2026-02-01",
     description: "Treats fungal infections.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample12.jpg"
+    image: "https://i.ibb.co.com/sample12.jpg",
   },
   {
     id: "med033",
@@ -802,7 +812,7 @@ const medicineData = [
     expiry_date: "2025-08-25",
     description: "Used for malaria and autoimmune diseases.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample13.jpg"
+    image: "https://i.ibb.co.com/sample13.jpg",
   },
   {
     id: "med034",
@@ -815,7 +825,7 @@ const medicineData = [
     expiry_date: "2026-01-01",
     description: "Relieves allergies in children.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample14.jpg"
+    image: "https://i.ibb.co.com/sample14.jpg",
   },
   {
     id: "med035",
@@ -828,7 +838,7 @@ const medicineData = [
     expiry_date: "2026-12-31",
     description: "Prevents dehydration from diarrhea.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample15.jpg"
+    image: "https://i.ibb.co.com/sample15.jpg",
   },
   {
     id: "med036",
@@ -841,7 +851,7 @@ const medicineData = [
     expiry_date: "2026-03-01",
     description: "Used to prevent blood clots.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample16.jpg"
+    image: "https://i.ibb.co.com/sample16.jpg",
   },
   {
     id: "med037",
@@ -854,7 +864,7 @@ const medicineData = [
     expiry_date: "2026-02-15",
     description: "Treats parasitic and bacterial infections.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample17.jpg"
+    image: "https://i.ibb.co.com/sample17.jpg",
   },
   {
     id: "med038",
@@ -867,7 +877,7 @@ const medicineData = [
     expiry_date: "2026-05-15",
     description: "Topical antifungal for skin infections.",
     prescription_required: "false",
-    image: "https://i.ibb.co.com/sample18.jpg"
+    image: "https://i.ibb.co.com/sample18.jpg",
   },
   {
     id: "med039",
@@ -880,7 +890,7 @@ const medicineData = [
     expiry_date: "2026-06-10",
     description: "Used for fluid replenishment.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample19.jpg"
+    image: "https://i.ibb.co.com/sample19.jpg",
   },
   {
     id: "med040",
@@ -893,8 +903,8 @@ const medicineData = [
     expiry_date: "2026-07-20",
     description: "Lowers bad cholesterol and triglycerides.",
     prescription_required: "true",
-    image: "https://i.ibb.co.com/sample20.jpg"
-  }
+    image: "https://i.ibb.co.com/sample20.jpg",
+  },
 ];
 
 const clothingData = [
@@ -910,7 +920,7 @@ const clothingData = [
     color: "লাল",
     material: "কটন",
     description: "আরামদায়ক গ্রীষ্মকালীন ম্যাক্সি ড্রেস।",
-    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg"
+    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg",
   },
   {
     id: "wc002",
@@ -924,7 +934,7 @@ const clothingData = [
     color: "সবুজ",
     material: "লিনেন",
     description: "দৈনন্দিন ব্যবহারের জন্য উপযোগী।",
-    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg"
+    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg",
   },
   {
     id: "wc003",
@@ -938,7 +948,7 @@ const clothingData = [
     color: "বেগুনি",
     material: "সিল্ক",
     description: "উৎসবের জন্য উপযুক্ত চকচকে শাড়ি।",
-    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg"
+    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg",
   },
   {
     id: "wc004",
@@ -952,7 +962,7 @@ const clothingData = [
     color: "নীল",
     material: "ডেনিম",
     description: "দীর্ঘস্থায়ী ও ট্রেন্ডি জিন্স।",
-    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg"
+    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg",
   },
   {
     id: "wc005",
@@ -966,7 +976,7 @@ const clothingData = [
     color: "ধূসর",
     material: "উল",
     description: "শীতে উষ্ণতা ও স্টাইলের জন্য।",
-    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg"
+    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg",
   },
   {
     id: "wc006",
@@ -980,7 +990,7 @@ const clothingData = [
     color: "কালো",
     material: "ভিসকোস",
     description: "হালকা আরামদায়ক দৈনন্দিন পোশাক।",
-    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg"
+    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg",
   },
   {
     id: "wc007",
@@ -994,7 +1004,7 @@ const clothingData = [
     color: "হলুদ",
     material: "কটন",
     description: "এমব্রয়ডারি নকশা সহ আকর্ষণীয় কুর্তি।",
-    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg"
+    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg",
   },
   {
     id: "wc008",
@@ -1008,7 +1018,7 @@ const clothingData = [
     color: "লাল",
     material: "জর্জেট",
     description: "নারীসুলভ ও ফ্যাশনেবল স্কার্ট।",
-    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg"
+    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg",
   },
   {
     id: "wc009",
@@ -1022,7 +1032,7 @@ const clothingData = [
     color: "বেগুনি ও সোনালী",
     material: "সিল্ক-কটন মিশ্রণ",
     description: "বিয়ের অনুষ্ঠান বা গেট টুগেদারের জন্য।",
-    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg"
+    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg",
   },
   {
     id: "wc010",
@@ -1036,7 +1046,7 @@ const clothingData = [
     color: "সাদা",
     material: "সাটিন",
     description: "অফিস বা প্রেজেন্টেশন উপযোগী ব্লাউজ।",
-    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg"
+    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg",
   },
   {
     id: "wc011",
@@ -1050,7 +1060,7 @@ const clothingData = [
     color: "পিচ",
     material: "জর্জেট",
     description: "বহুমুখী ব্যবহারের জন্য আকর্ষণীয় টিউনিক।",
-    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg"
+    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg",
   },
   {
     id: "wc012",
@@ -1064,7 +1074,7 @@ const clothingData = [
     color: "সাদা ও নীল প্রিন্ট",
     material: "কটন",
     description: "দীর্ঘ সময় পরে আরামদায়ক।",
-    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg"
+    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg",
   },
   {
     id: "wc013",
@@ -1078,7 +1088,7 @@ const clothingData = [
     color: "মেরুন",
     material: "ব্রোকেড",
     description: "ঐতিহ্যবাহী ও স্টাইলিশ শাড়ি।",
-    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg"
+    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg",
   },
   {
     id: "wc014",
@@ -1092,7 +1102,7 @@ const clothingData = [
     color: "কফি",
     material: "উল",
     description: "শীতে ফ্যাশনের সাথে উষ্ণতা।",
-    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg"
+    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg",
   },
   {
     id: "wc015",
@@ -1106,7 +1116,7 @@ const clothingData = [
     color: "বেগুনি",
     material: "সাটিন",
     description: "রাত্রিকালীন বা ইভনিং প্রোগ্রামের জন্য।",
-    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg"
+    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg",
   },
   {
     id: "wc016",
@@ -1120,7 +1130,7 @@ const clothingData = [
     color: "লাল ও কালো",
     material: "কটন",
     description: "ক্যাজুয়াল পোশাকের জন্য উপযোগী।",
-    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg"
+    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg",
   },
   {
     id: "wc017",
@@ -1134,7 +1144,7 @@ const clothingData = [
     color: "লাল ও সাদা",
     material: "লিনেন",
     description: "পুরো সেটসহ স্টাইলিশ লুক।",
-    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg"
+    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg",
   },
   {
     id: "wc018",
@@ -1148,7 +1158,7 @@ const clothingData = [
     color: "ব্লু স্ট্রাইপ",
     material: "কটন",
     description: "আরামদায়ক ও ক্যাজুয়াল লুকের জন্য।",
-    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg"
+    image: "https://i.ibb.co.com/FLXFJP3k/65e2a6914a266-square.jpg",
   },
   {
     id: "wc019",
@@ -1162,7 +1172,7 @@ const clothingData = [
     color: "গোলাপী",
     material: "সিল্ক",
     description: "পার্টি বা বিশেষ অনুষ্ঠানের জন্য।",
-    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg"
+    image: "https://i.ibb.co.com/CpXqvdwg/66c5ba00966d7-square.jpg",
   },
   {
     id: "wc020",
@@ -1176,10 +1186,169 @@ const clothingData = [
     color: "সবুজ",
     material: "কটন",
     description: "আরামদায়ক দৈনন্দিন ব্যবহার।",
-    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg"
-  }
+    image: "https://i.ibb.co.com/FPL8B1D/640031abaefc9-square.jpg",
+  },
 ];
 
+const websiteData = [
+  {
+    serviceName: "বেসিক ওয়েবসাইট",
+    description: "একটি রেসপনসিভ সিঙ্গেল পেজ ওয়েবসাইট, কনট্যাক্ট ফর্ম সহ।",
+    price: "৳১০০",
+    deliveryTime: "৩ দিন",
+    revisions: "২ বার",
+    extras: ["এসইও অপটিমাইজেশন", "সোশ্যাল মিডিয়া ইন্টিগ্রেশন"],
+    image: "https://i.ibb.co.com/p60dGDNv/impact-img.png",
+  },
+  {
+    serviceName: "বিজনেস ওয়েবসাইট",
+    description: "একাধিক পেজ সহ ডাইনামিক কনটেন্ট ও বেসিক অ্যানিমেশনস।",
+    price: "৳৩০০",
+    deliveryTime: "৫ দিন",
+    revisions: "৩ বার",
+    extras: ["কাস্টম অ্যাডমিন প্যানেল", "ব্লগ সেটআপ"],
+    image: "https://i.ibb.co.com/1hRphf2/select-dealer-case.png",
+  },
+  {
+    serviceName: "ই-কমার্স ওয়েবসাইট",
+    description:
+      "প্রোডাক্ট লিস্টিং, শপিং কার্ট ও পেমেন্ট গেটওয়ে সহ অনলাইন স্টোর।",
+    price: "৳৬০০",
+    deliveryTime: "৭ দিন",
+    revisions: "৪ বার",
+    extras: ["ইনভেন্টরি ম্যানেজমেন্ট", "কুপন সিস্টেম", "ইউজার অ্যাকাউন্ট"],
+    image: "https://i.ibb.co.com/Nn3K6YNV/alhussaini.png",
+  },
+  {
+    serviceName: "বেসিক ওয়েবসাইট",
+    description: "একটি রেসপনসিভ সিঙ্গেল পেজ ওয়েবসাইট, কনট্যাক্ট ফর্ম সহ।",
+    price: "৳১০০",
+    deliveryTime: "৩ দিন",
+    revisions: "২ বার",
+    extras: ["এসইও অপটিমাইজেশন", "সোশ্যাল মিডিয়া ইন্টিগ্রেশন"],
+    image: "https://i.ibb.co.com/p60dGDNv/impact-img.png",
+  },
+  {
+    serviceName: "বিজনেস ওয়েবসাইট",
+    description: "একাধিক পেজ সহ ডাইনামিক কনটেন্ট ও বেসিক অ্যানিমেশনস।",
+    price: "৳৩০০",
+    deliveryTime: "৫ দিন",
+    revisions: "৩ বার",
+    extras: ["কাস্টম অ্যাডমিন প্যানেল", "ব্লগ সেটআপ"],
+    image: "https://i.ibb.co.com/1hRphf2/select-dealer-case.png",
+  },
+  {
+    serviceName: "ই-কমার্স ওয়েবসাইট",
+    description:
+      "প্রোডাক্ট লিস্টিং, শপিং কার্ট ও পেমেন্ট গেটওয়ে সহ অনলাইন স্টোর।",
+    price: "৳৬০০",
+    deliveryTime: "৭ দিন",
+    revisions: "৪ বার",
+    extras: ["ইনভেন্টরি ম্যানেজমেন্ট", "কুপন সিস্টেম", "ইউজার অ্যাকাউন্ট"],
+    image: "https://i.ibb.co.com/Nn3K6YNV/alhussaini.png",
+  },
+  {
+    serviceName: "ল্যান্ডিং পেজ",
+    description: "মার্কেটিং ক্যাম্পেইনের জন্য কনভার্শন-ফোকাসড ল্যান্ডিং পেজ।",
+    price: "৳৮০",
+    deliveryTime: "২ দিন",
+    revisions: "১ বার",
+    extras: ["অ্যানালিটিক্স ইন্টিগ্রেশন", "নিউজলেটার সাবস্ক্রিপশন"],
+    image: "https://i.ibb.co.com/p60dGDNv/impact-img.png",
+  },
+  {
+    serviceName: "পোর্টফোলিও ওয়েবসাইট",
+    description: "ডেভেলপার/ডিজাইনারের জন্য পার্সোনাল ব্র্যান্ডিং ওয়েবসাইট।",
+    price: "৳২০০",
+    deliveryTime: "৪ দিন",
+    revisions: "২ বার",
+    extras: ["প্রজেক্ট গ্যালারি", "কন্টাক্ট ফর্ম"],
+    image: "https://i.ibb.co.com/1hRphf2/select-dealer-case.png",
+  },
+  {
+    serviceName: "এডভান্সড ওয়েব অ্যাপ্লিকেশন",
+    description: "কমপ্লেক্স ফিচার সহ কাস্টম ওয়েব অ্যাপ, ইউজার বেসড।",
+    price: "৳১০০০",
+    deliveryTime: "১০ দিন",
+    revisions: "৫ বার",
+    extras: [
+      "রোল বেইসড ইউজার সিস্টেম",
+      "রিয়েল-টাইম ডেটা আপডেট",
+      "এপিআই ইন্টিগ্রেশন",
+    ],
+    image: "https://i.ibb.co.com/Nn3K6YNV/alhussaini.png",
+  },
+];
 
+const mobileAppData = [
+  {
+    serviceName: "বেসিক মোবাইল অ্যাপ",
+    description: "সাধারণ ইউআই সহ একটি বেসিক মোবাইল অ্যাপ অ্যান্ড্রয়েডের জন্য।",
+    price: "৳১৫০",
+    deliveryTime: "৩ দিন",
+    revisions: "২ বার",
+    extras: ["পুশ নোটিফিকেশন", "ফায়ারবেস ইন্টিগ্রেশন"],
+    image: "https://i.ibb.co.com/VpcQgpk9/2.png",
+  },
+  {
+    serviceName: "বিজনেস অ্যাপ",
+    description:
+      "বিজনেস ফিচার সহ একটি প্রফেশনাল অ্যাপ, অর্ডার এবং চ্যাট সাপোর্ট সহ।",
+    price: "৳৪০০",
+    deliveryTime: "৫ দিন",
+    revisions: "৩ বার",
+    extras: ["চ্যাট সাপোর্ট", "লোকেশন সার্ভিস"],
+    image: "https://i.ibb.co.com/HTq9dXGs/1.png",
+  },
+  {
+    serviceName: "ই-কমার্স অ্যাপ",
+    description:
+      "অনলাইন শপের জন্য সম্পূর্ণ ফিচারড ই-কমার্স অ্যাপ, পেমেন্ট গেটওয়ে সহ।",
+    price: "৳৭০০",
+    deliveryTime: "৭ দিন",
+    revisions: "৪ বার",
+    extras: ["পেমেন্ট ইন্টিগ্রেশন", "ইনভেন্টরি কন্ট্রোল", "ইউজার প্রোফাইল"],
+    image: "https://i.ibb.co.com/nqwvZqkf/3.png",
+  },
+  {
+    serviceName: "লাইটওয়েট অ্যাপ",
+    description: "ছোট বা স্পেসিফিক ফাংশনালিটির জন্য হালকা মোবাইল অ্যাপ।",
+    price: "৳১২০",
+    deliveryTime: "২ দিন",
+    revisions: "১ বার",
+    extras: ["কুইক পারফরম্যান্স", "অফলাইন সাপোর্ট"],
+    image: "https://i.ibb.co.com/VpcQgpk9/2.png",
+  },
+  {
+    serviceName: "পোর্টফোলিও অ্যাপ",
+    description: "পার্সোনাল ব্র্যান্ডিং বা কাজের প্রদর্শনের জন্য মোবাইল অ্যাপ।",
+    price: "৳২০০",
+    deliveryTime: "৪ দিন",
+    revisions: "২ বার",
+    extras: ["ইন্টারঅ্যাকটিভ ইউআই", "কন্টাক্ট ফর্ম"],
+    image: "https://i.ibb.co.com/HTq9dXGs/1.png",
+  },
+  {
+    serviceName: "এডভান্সড হাইব্রিড অ্যাপ",
+    description:
+      "React Native বা Flutter ব্যবহার করে অ্যান্ড্রয়েড ও iOS এর জন্য অ্যাপ।",
+    price: "৳১২০০",
+    deliveryTime: "১০ দিন",
+    revisions: "৫ বার",
+    extras: [
+      "ক্রস-প্ল্যাটফর্ম সাপোর্ট",
+      "রিয়েল-টাইম ডেটা",
+      "এক্সটারনাল এপিআই",
+    ],
+    image: "https://i.ibb.co.com/nqwvZqkf/3.png",
+  },
+];
 
-export {hospitalData , doctorData , medicineData , clothingData}
+export {
+  clothingData,
+  doctorData,
+  hospitalData,
+  medicineData,
+  mobileAppData,
+  websiteData,
+};
