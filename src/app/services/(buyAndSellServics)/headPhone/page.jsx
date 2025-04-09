@@ -1,12 +1,10 @@
 'use client';
 
 import React from 'react';
- // Import headphone data
-import HeadphoneCard from '@/components/allCard/HeadphoneCard'; // Import HeadphoneCard component
+import HeadphoneCard from '@/components/allCard/HeadphoneCard'; 
 import headphonesData from '@/utils/headphonesData';
 
 const Page = () => {
-  console.log('headphonesData:', headphonesData);
 
   return (
     <div className="w-11/12 mx-auto md:w-10/12">

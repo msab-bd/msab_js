@@ -1,11 +1,11 @@
-'use client';
+
 
 import React from 'react';
 import travelAgents from '@/utils/travelAgentData';
 import TravelAgentCard from '@/components/allCard/travelAgentCard';
 
 const Page = () => {
-  console.log('travelAgents:', travelAgents);
+
 
   return (
     <div className='w-11/12 mx-auto md:w-10/12'>
