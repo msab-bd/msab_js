@@ -1,8 +1,8 @@
-'use client';
 
-import React from 'react';
-import HeadphoneCard from '@/components/allCard/HeadphoneCard'; 
-import headphonesData from '@/utils/headphonesData';
+import HeadphoneCard from "@/components/allCard/HeadPhoneCard";
+import headphonesData from "@/utils/headphonesData";
+
+
 
 const Page = () => {
 

@@ -1,9 +1,9 @@
 
+import PowerBankCard from "@/components/allCard/PowerBankCard";
+import { powerBanksData } from "@/utils/powerBanksData";
 
-import React from 'react';
 
-import PowerBankCard from '@/components/allCard/PowerBankCard';
-import { powerBanksData } from '@/utils/powerBanksData';
+
 
 const Page = () => {
   return (
