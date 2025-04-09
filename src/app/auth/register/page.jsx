@@ -24,7 +24,7 @@ const Page = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log("Login Data:", data);
+   
     toast.success("login success");
   };
 

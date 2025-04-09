@@ -24,7 +24,7 @@ const LoginPage = () => {
   } = useForm();
 
   const onSubmit = async (formData) => {
-    console.log("Submitting data:", formData);
+    
 
     try {
       const response = await axios.post("http://localhost:3000/api/user", formData, {
