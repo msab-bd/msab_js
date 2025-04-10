@@ -1,8 +1,7 @@
-import React from 'react'
 
-
-import tourPackages from '@/utils/tourPackageData';
 import TourPackageCard from '@/components/allCard/TourPackageCard';
+import tourPackages from '@/utils/tourPackageData';
+
 
 
 const page = () => {
