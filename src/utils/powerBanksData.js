@@ -1,4 +1,4 @@
-export const powerBanksData = [
+ const powerBanksData = [
     {
       product_id: 1,
       name: "Anker PowerCore 10000",
@@ -99,4 +99,6 @@ export const powerBanksData = [
       description: "দ্রুত এবং নির্ভরযোগ্য চার্জিং সমাধান, স্টাইলিশ ডিজাইনে।"
     }
   ];
+
+  export default powerBanksData;
   
