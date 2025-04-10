@@ -53,7 +53,7 @@ const categories = [
     subcategories: [
       { bn: "ওয়েব ডেভেলপমেন্ট", en: "Web Development", href: "web-development" },
       { bn: "মোবাইল অ্যাপ্লিকেশন", en: "Mobile Application", href: "mobile-application" },
-      { bn: "গ্রাফিক্স ডিজাইন", en: "Graphics Design", href: "graphics-design" },
+      { bn: "গ্রাফিক্স ডিজাইন", en: "Graphics Design", href: "graphicDesign" },
     ],
   },
 ];
