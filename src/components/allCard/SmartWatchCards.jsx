@@ -94,13 +94,14 @@ const SmartWatchCard = ({ watch }) => {
 
             {/* Card Header */}
             <CardHeader className="px-0">
-                <div className="w-full h-48 relative overflow-hidden rounded-t-xl">
+                <div className="w-full h-full relative overflow-hidden rounded-t-xl">
                     <Image
                         src={image_urls[0]}
                         alt={name}
-                        fill
-                        className="object-cover"
-                        sizes="100%"
+                        layout="responsive"
+                        width={300}
+                        height={300}
+                        className="object-cover rounded-full"
                     />
                 </div>
                 <CardTitle className="text-xl px-5 font-semibold mt-3">{name}</CardTitle>
