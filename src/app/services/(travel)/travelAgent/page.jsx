@@ -1,9 +1,7 @@
-
-
-
-import React from 'react';
+import TravelAgentCard from '@/components/allCard/travelAgentCard';
 import travelAgents from '@/utils/travelAgentData';
-import TravelAgentCard from '@/components/allCard/TravelAgentCard';
+import React from 'react';
+
 
 const Page = () => {
 

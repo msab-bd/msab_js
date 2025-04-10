@@ -1,9 +1,6 @@
-import VehicleCard from "@/components/allCard/VehicleCard";
-import vehiclesData from "@/utils/vehiclesData";
-
-
-
-
+import VehicleCard from '@/components/allCard/vehicleCard';
+import vehiclesData from '@/utils/vehiclesData';
+import React from 'react'
 const page = () => {
 
 

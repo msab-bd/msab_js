@@ -114,7 +114,7 @@ const PowerBankCard = ({ powerBank }) => {
 
       {/* Card Footer */}
       <CardFooter>
-        <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white text-[18px]  py-2 rounded-md">
+        <Button className="w-full bg-green-700 hover:bg-green-900 text-white text-[18px]  py-2 rounded-md">
           বিস্তারিত দেখুন
         </Button>
       </CardFooter>
