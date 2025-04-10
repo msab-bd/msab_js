@@ -58,8 +58,8 @@ const smartWatches = [
       "email": "info@amazfitbd.com",
       "description": "দীর্ঘস্থায়ী ব্যাটারি এবং স্টাইলিশ ডিজাইনের স্মার্ট ঘড়ি।",
       "image_urls": [
-        "https://i.ibb.co.com/amazfit-gtr3-1.jpg",
-        "https://i.ibb.co.com/amazfit-gtr3-2.jpg"
+        "https://i.ibb.co.com/609w4m73/apple-watch-series-8-4854-1.jpg",
+        // "https://i.ibb.co.com/amazfit-gtr3-2.jpg"
       ]
     },
     {
@@ -79,8 +79,8 @@ const smartWatches = [
       "email": "contact@huaweebd.com",
       "description": "দ্রুত এবং নির্ভুল পারফরম্যান্স সহ উন্নত স্মার্ট ঘড়ি।",
       "image_urls": [
-        "https://i.ibb.co.com/huawei-gt3-1.jpg",
-        "https://i.ibb.co.com/huawei-gt3-2.jpg"
+        "https://i.ibb.co.com/609w4m73/apple-watch-series-8-4854-1.jpg",
+        // "https://i.ibb.co.com/huawei-gt3-2.jpg"
       ]
     },
     {
@@ -99,8 +99,8 @@ const smartWatches = [
       "email": "info@realmebd.com",
       "description": "বাজেটের মধ্যে সেরা স্মার্ট ঘড়ি, প্রচুর স্পোর্টস মোড সহ।",
       "image_urls": [
-        "https://i.ibb.co.com/realme-watch2-1.jpg",
-        "https://i.ibb.co.com/realme-watch2-2.jpg"
+        "https://i.ibb.co.com/609w4m73/apple-watch-series-8-4854-1.jpg",
+        // "https://i.ibb.co.com/realme-watch2-2.jpg"
       ]
     },
     {
@@ -120,8 +120,8 @@ const smartWatches = [
       "email": "support@garminbd.com",
       "description": "একটি উন্নত মাল্টি-স্পোর্ট স্মার্ট ঘড়ি, হেলথ ও ফিটনেস ফিচার সমৃদ্ধ।",
       "image_urls": [
-        "https://i.ibb.co.com/garmin-venu-1.jpg",
-        "https://i.ibb.co.com/garmin-venu-2.jpg"
+        "https://i.ibb.co.com/609w4m73/apple-watch-series-8-4854-1.jpg",
+        // "https://i.ibb.co.com/garmin-venu-2.jpg"
       ]
     },
     {
@@ -140,8 +140,8 @@ const smartWatches = [
       "email": "info@fitbitbd.com",
       "description": "স্বাস্থ্য এবং ফিটনেস ফোকাসড স্মার্ট ঘড়ি, স্টাইলিশ ডিজাইন সহ।",
       "image_urls": [
-        "https://i.ibb.co.com/fitbit-versa3-1.jpg",
-        "https://i.ibb.co.com/fitbit-versa3-2.jpg"
+        "https://i.ibb.co.com/609w4m73/apple-watch-series-8-4854-1.jpg",
+        // "https://i.ibb.co.com/fitbit-versa3-2.jpg"
       ]
     },
     {
@@ -160,8 +160,8 @@ const smartWatches = [
       "email": "support@honorbd.com",
       "description": "উন্নত হেলথ ট্র্যাকিং এবং দীর্ঘস্থায়ী ব্যাটারি সহ স্মার্ট ঘড়ি।",
       "image_urls": [
-        "https://i.ibb.co.com/honor-magic2-1.jpg",
-        "https://i.ibb.co.com/honor-magic2-2.jpg"
+        "https://i.ibb.co.com/609w4m73/apple-watch-series-8-4854-1.jpg",
+        // "https://i.ibb.co.com/honor-ma/gic2-2.jpg"
       ]
     },
     {
@@ -181,8 +181,8 @@ const smartWatches = [
       "email": "contact@oneplusbd.com",
       "description": "স্মার্ট, স্টাইলিশ এবং পারফরম্যান্সে দুর্দান্ত স্মার্ট ঘড়ি।",
       "image_urls": [
-        "https://i.ibb.co.com/oneplus-watch-1.jpg",
-        "https://i.ibb.co.com/oneplus-watch-2.jpg"
+        "https://i.ibb.co.com/609w4m73/apple-watch-series-8-4854-1.jpg",
+        // "https://i.ibb.co.com/oneplus-watch-2.jpg"
       ]
     }
   ];
