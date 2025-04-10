@@ -28,7 +28,7 @@ const categories = [
     name: "নর-নারী সুন্দর",
     subcategories: [
       { bn: "পোশাক", en: "Clothing", href: "clothing" },
-      { bn: "সৌন্দর্য পণ্য", en: "Beauty Products", href: "beauty-products" },
+      { bn: "সৌন্দর্য পণ্য", en: "Beauty Products", href: "beautyProducts" },
       { bn: "স্বাস্থ্য ও সৌন্দর্য", en: "Health & Beauty", href: "health-beauty" },
     ],
   },

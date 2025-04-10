@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import tourPackages from '@/utils/tourPackageData';
-import TourPackageCard from '@/components/allCard/tourPackageCard';
+import TourPackageCard from '@/components/allCard/TourPackageCard';
 
 
 const page = () => {

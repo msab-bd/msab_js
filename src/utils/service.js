@@ -1344,6 +1344,119 @@ const mobileAppData = [
   },
 ];
 
+const beautyProducts = [
+  {
+    name: "ম্যাট লিপস্টিক",
+    brand: "ল্যাকমে",
+    category: "লিপস্টিক",
+    shade: "রোজ পিংক",
+    price: 299,
+    discount: 10,
+    stock: 50,
+    description: "দীর্ঘস্থায়ী এবং জলরোধী ম্যাট লিপস্টিক।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "ফাউন্ডেশন SPF 25",
+    brand: "মেবেলিন",
+    category: "ফাউন্ডেশন",
+    shade: "ন্যাচারাল বিঞ্জ",
+    price: 599,
+    discount: 15,
+    stock: 30,
+    description: "ত্বকে নিখুঁত কভারেজ প্রদান করে, দৈনন্দিন ব্যবহারে উপযুক্ত।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "স্মাজ-প্রুফ কাজল",
+    brand: "লরিয়াল",
+    category: "কাজল",
+    shade: "ব্ল্যাক ম্যাজিক",
+    price: 199,
+    discount: 5,
+    stock: 100,
+    description: "স্মাজ-প্রুফ ও ওয়াটারপ্রুফ কাজল যা সারাদিন স্থায়ী থাকে।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "প্রেসড পাউডার",
+    brand: "কলরবার",
+    category: "পাউডার",
+    shade: "স্যান্ড বেইজ",
+    price: 275,
+    discount: 10,
+    stock: 60,
+    description: "ত্বকের তেল নিয়ন্ত্রণে সহায়ক এবং দীর্ঘস্থায়ী ফিনিশ দেয়।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "টিন্টেড লিপ বাম",
+    brand: "হিমালয়া",
+    category: "লিপ কেয়ার",
+    shade: "চেরি গ্লো",
+    price: 99,
+    discount: 5,
+    stock: 90,
+    description: "ঠোঁটকে আর্দ্র রাখে এবং হালকা রঙ প্রদান করে।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "বিবি ক্রিম",
+    brand: "গার্নিয়ার",
+    category: "বিবি ক্রিম",
+    shade: "মিডিয়াম",
+    price: 199,
+    discount: 10,
+    stock: 45,
+    description: "হালকা কভারেজ ও ময়েশ্চারাইজিং ফর্মুলা সহ।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "আইশ্যাডো প্যালেট",
+    brand: "এইচডি বিউটি",
+    category: "আইশ্যাডো",
+    shade: "নিউট্রাল টোনস",
+    price: 899,
+    discount: 20,
+    stock: 25,
+    description: "দৈনন্দিন ও পার্টি লুকের জন্য উপযুক্ত ১২টি শেডস।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "হাইলাইটার প্যালেট",
+    brand: "নাইক্যাড",
+    category: "হাইলাইটার",
+    shade: "সানগ্লো",
+    price: 599,
+    discount: 15,
+    stock: 30,
+    description: "ত্বকে ঝলমলে উজ্জ্বলতা যোগ করে।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "ব্রো পেন্সিল",
+    brand: "ম্যাক",
+    category: "আইব্রো",
+    shade: "ডার্ক ব্রাউন",
+    price: 399,
+    discount: 10,
+    stock: 40,
+    description: "ভ্রুর নিখুঁত আকার বজায় রাখতে সহায়ক।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  },
+  {
+    name: "সেটিং স্প্রে",
+    brand: "ম্যাক",
+    category: "মেকআপ সেটিং",
+    shade: "ডিউই ফিনিশ",
+    price: 699,
+    discount: 10,
+    stock: 30,
+    description: "মেকআপ দীর্ঘস্থায়ী ও সতেজ রাখে।",
+    image: "https://i.ibb.co.com/VW2w2FrX/Leonardo-Phoenix-10-A-closeup-product-photo-of-a-matte-lipstic-3.jpg"
+  }
+]
+
 export {
   clothingData,
   doctorData,
@@ -1351,4 +1464,5 @@ export {
   medicineData,
   mobileAppData,
   websiteData,
+  beautyProducts
 };
