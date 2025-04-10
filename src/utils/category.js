@@ -37,7 +37,7 @@ const categories = [
     subcategories: [
       { bn: "স্মার্ট ঘড়ি", en: "Smart Watches", href: "smartWatches" },
       { bn: "হেডফোন ", en: "Headphones", href: "headPhone" },
-      { bn: "পাওয়ার ব্যাংক", en: "Power Banks", href: "power-banks" },
+      { bn: "পাওয়ার ব্যাংক", en: "Power Banks", href: "powerBank" },
     ],
   },
   {
