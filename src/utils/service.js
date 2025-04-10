@@ -1457,6 +1457,100 @@ const beautyProducts = [
   }
 ]
 
+const designServices = [
+  {
+    name: "পোস্টার ডিজাইন",
+    category: "গ্রাফিক ডিজাইন",
+    description: "ইভেন্ট, প্রমোশন অথবা সোশ্যাল মিডিয়ার জন্য আকর্ষণীয় পোস্টার ডিজাইন।",
+    price: 500,
+    deliveryTime: "2 days",
+    revision: 2,
+    image: "https://i.ibb.co.com/gbmKDRBP/34199613-609.jpg"
+  },
+  {
+    name: "ব্যানার ডিজাইন",
+    category: "গ্রাফিক ডিজাইন",
+    description: "ওয়েবসাইট, ফেসবুক কভার অথবা বিজ্ঞাপনের জন্য ব্যানার তৈরি।",
+    price: 600,
+    deliveryTime: "2 days",
+    revision: 2,
+    image: "https://i.ibb.co.com/dsvx09rv/122159578-433.jpg"
+  },
+  {
+    name: "লোগো ডিজাইন",
+    category: "ব্র্যান্ডিং",
+    description: "বিজনেস বা পার্সোনাল ব্র্যান্ডিং এর জন্য ইউনিক লোগো তৈরি।",
+    price: 1000,
+    deliveryTime: "3 days",
+    revision: 3,
+    image: "https://i.ibb.co.com/ycskTMk0/34484430-shoesoct10.jpg"
+  },
+  {
+    name: "ইউটিউব থাম্বনেইল ডিজাইন",
+    category: "সোশ্যাল মিডিয়া",
+    description: "ইউটিউব ভিডিওর জন্য হাই-কোয়ালিটি ও ক্লিক-বেইট থাম্বনেইল ডিজাইন।",
+    price: 300,
+    deliveryTime: "1 day",
+    revision: 1,
+    image: "https://i.ibb.co.com/G4qwy6BL/7009951-3514068.jpg"
+  },
+  {
+    name: "সোশ্যাল মিডিয়া পোস্ট ডিজাইন",
+    category: "সোশ্যাল মিডিয়া",
+    description: "ইনস্টাগ্রাম, ফেসবুক ও অন্যান্য সোশ্যাল প্ল্যাটফর্মের জন্য পোস্ট ডিজাইন।",
+    price: 400,
+    deliveryTime: "1 day",
+    revision: 2,
+    image: "https://i.ibb.co.com/qYq1G6KG/7009949-3514341.jpg"
+  },
+  {
+    name: "ভিজিটিং কার্ড ডিজাইন",
+    category: "প্রিন্ট ডিজাইন",
+    description: "প্রফেশনাল ও ইউনিক ভিজিটিং কার্ড ডিজাইন।",
+    price: 350,
+    deliveryTime: "2 days",
+    revision: 2,
+    image: "https://i.ibb.co.com/gbmKDRBP/34199613-609.jpg"
+  },
+  {
+    name: "ফ্লায়ার ডিজাইন",
+    category: "প্রিন্ট ডিজাইন",
+    description: "প্রচার, অফার অথবা ইভেন্টের জন্য রঙিন ফ্লায়ার ডিজাইন।",
+    price: 500,
+    deliveryTime: "2 days",
+    revision: 2,
+    image: "https://i.ibb.co.com/dsvx09rv/122159578-433.jpg"
+  },
+  {
+    name: "ই-বুক কাভার ডিজাইন",
+    category: "বুক ডিজাইন",
+    description: "ই-বুক অথবা প্রিন্ট বুকের জন্য আকর্ষণীয় কাভার ডিজাইন।",
+    price: 800,
+    deliveryTime: "3 days",
+    revision: 2,
+    image: "https://i.ibb.co.com/ycskTMk0/34484430-shoesoct10.jpg"
+  },
+  {
+    name: "ইনফোগ্রাফিক ডিজাইন",
+    category: "ডেটা ভিজ্যুয়াল",
+    description: "তথ্য উপস্থাপনায় আকর্ষণীয় ও সহজবোধ্য ইনফোগ্রাফিক ডিজাইন।",
+    price: 700,
+    deliveryTime: "3 days",
+    revision: 2,
+    image: "https://i.ibb.co.com/G4qwy6BL/7009951-3514068.jpg"
+  },
+  {
+    name: "মেনু ডিজাইন",
+    category: "প্রিন্ট ডিজাইন",
+    description: "রেস্টুরেন্ট বা ক্যাফের জন্য প্রফেশনাল মেনু ডিজাইন।",
+    price: 600,
+    deliveryTime: "2 days",
+    revision: 2,
+    image: "https://i.ibb.co.com/qYq1G6KG/7009949-3514341.jpg"
+  }
+]
+
+
 export {
   clothingData,
   doctorData,
@@ -1464,5 +1558,6 @@ export {
   medicineData,
   mobileAppData,
   websiteData,
-  beautyProducts
+  beautyProducts,
+  designServices
 };
