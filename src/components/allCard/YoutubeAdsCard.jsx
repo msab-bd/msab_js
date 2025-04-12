@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
-const InstagramAdsCard = ({ ad }) => {
+const YoutubeAdsCard = ({ ad }) => {
   const {
     campaign_name,
     budget,
@@ -19,14 +19,13 @@ const InstagramAdsCard = ({ ad }) => {
     <Card className="w-9/12 mx-auto rounded-2xl shadow-md pt-0 flex flex-col justify-between h-full">
       {/* Card Header */}
       <CardHeader className="px-0">
-        <div className="w-full h-full relative overflow-hidden rounded-t-xl">
+        <div className="w-full h-48 relative overflow-hidden rounded-t-xl">
           <Image
             src={image_urls?.[0] || "/placeholder.jpg"}
             alt={campaign_name}
-            // fill
-            className="object-cover  rounded-full "
-            // sizes="100%"
-            layout='fill'
+            fill
+            className="object-cover"
+            sizes="100%"
           />
         </div>
         <CardTitle className="text-xl px-5 font-semibold mt-3">{campaign_name}</CardTitle>
@@ -52,4 +51,4 @@ const InstagramAdsCard = ({ ad }) => {
   );
 };
 
-export default InstagramAdsCard;
+export default YoutubeAdsCard;
