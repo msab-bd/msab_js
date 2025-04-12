@@ -16,31 +16,31 @@ const services = [
     title: "ভাড়া", // Rent
     description: "বিভিন্ন ধরনের ভাড়া সেবা।",
     icon: <FontAwesomeIcon icon={faHouseUser} size="2x" className="text-blue-600  w-24 h-24" />,
-    link: "/services/rent",
+    link: "/services/house",
   },
   {
     title: "ভ্রমণ", // Travel
     description: "আপনার ভ্রমণের জন্য আধুনিক সমাধান।",
     icon: <FontAwesomeIcon icon={faPlane} size="2x" className="text-green-600  w-24 h-24" />,
-    link: "/services/travel",
+    link: "/services/travelAgent",
   },
   {
     title: "স্বাস্থ্য", // Health
     description: "আপনার সুস্থতার জন্য আধুনিক স্বাস্থ্যসেবা।",
     icon: <FontAwesomeIcon icon={faUserDoctor} size="2x" className="text-red-600  w-24 h-24" />,
-    link: "/services/health",
+    link: "/services/doctor",
   },
   {
     title: "নর-নারী সুন্দর", // Beauty
     description: "সৌন্দর্য ও পরিচর্যার আধুনিক সমাধান।",
     icon: <Image src="/asset/beauty.png" alt="Beauty" width={100} height={100} />,
-    link: "/services/beauty",
+    link: "/services/clothing",
   },
   {
     title: "ক্রয় বিক্রয় সেবা", // Buy/Sell
     description: "কৃষকদের জন্য আধুনিক বিক্রয় ও বিপণন সেবা।",
     icon: <Image src="/asset/buy.png" alt="Buy/Sell" width={100} height={100} />,
-    link: "/services/agriculture",
+    link: "/services/smartWatches",
   },
   {
     title: "আধুনিক বিজ্ঞাপন", // Advertising
@@ -52,13 +52,13 @@ const services = [
         className="text-yellow-600 w-24 h-24" // Tailwind width and height classes
       />
     ),
-    link: "/services/advertising",
+    link: "/services/facebook",
   },
   {
     title: "প্রযুক্তি", // Technology
     description: "আধুনিক প্রযুক্তিগত সমাধান আপনার ব্যবসার জন্য।",
     icon: <FontAwesomeIcon icon={faRocket} size="2x" className="text-purple-600  w-24 h-24" />,
-    link: "/services/technology",
+    link: "/services/web-development",
   },
 ];
 
