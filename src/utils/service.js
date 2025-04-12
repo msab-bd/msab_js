@@ -1550,6 +1550,115 @@ const designServices = [
   }
 ]
 
+const reviewData = [
+  {
+    name: "সাদিয়া রহমান",
+    rating: 4.8,
+    review: "অসাধারণ সার্ভিস! ডাক্তার খুবই সহানুভূতিশীল ছিলেন।",
+    date: "2025-04-10",
+    profileImage: "https://i.ibb.co.com/GQ2LKL9X/premium-photo-1688740375397-34605b6abe48.jpg"
+  },
+  {
+    name: "রাফিউল ইসলাম",
+    rating: 4.5,
+    review: "পরিষেবা মোটামুটি ভালো ছিল, কিন্তু অপেক্ষার সময় একটু বেশি লেগেছে।",
+    date: "2025-04-08",
+    profileImage: "https://i.ibb.co.com/jPCCYh3G/360-F-364211147-1qg-LVxv1-Tcq0-Ohz3-Faw-Ufrt-ONzz8nq3e.jpg"
+  },
+  {
+    name: "নুসরাত জাহান",
+    rating: 5.0,
+    review: "খুবই সন্তুষ্ট। ভবিষ্যতেও এই ক্লিনিকেই আসব।",
+    date: "2025-04-06",
+    profileImage: "https://i.ibb.co.com/1YwZhT5n/images.jpg"
+  },
+  {
+    name: "তানভীর হাসান",
+    rating: 4.2,
+    review: "ডাক্তার ভালো ছিলেন কিন্তু রিসেপশনে সেবা উন্নত করা দরকার।",
+    date: "2025-04-04",
+    profileImage: "https://i.ibb.co.com/GQ2LKL9X/premium-photo-1688740375397-34605b6abe48.jpg"
+  },
+  {
+    name: "মাহমুদা সুলতানা",
+    rating: 4.9,
+    review: "সব কিছু পরিষ্কার-পরিচ্ছন্ন ছিল। চিকিৎসা পদ্ধতি ভালো লেগেছে।",
+    date: "2025-04-01",
+    profileImage: "https://i.ibb.co.com/jPCCYh3G/360-F-364211147-1qg-LVxv1-Tcq0-Ohz3-Faw-Ufrt-ONzz8nq3e.jpg"
+  },
+  {
+    name: "ফারহান আহমেদ",
+    rating: 3.8,
+    review: "সাধারণ অভিজ্ঞতা। সময়মতো ডাক্তার আসেননি।",
+    date: "2025-03-29",
+    profileImage: "https://i.ibb.co.com/1YwZhT5n/images.jpg"
+  },
+  {
+    name: "রিমি আক্তার",
+    rating: 4.7,
+    review: "স্টাফরা অনেক সাহায্যকারী ছিল। দ্রুত সেবা পেয়েছি।",
+    date: "2025-03-26",
+    profileImage: "https://i.ibb.co.com/GQ2LKL9X/premium-photo-1688740375397-34605b6abe48.jpg"
+  },
+  {
+    name: "আলভী হোসেন",
+    rating: 5.0,
+    review: "চমৎকার চিকিৎসা! ডাক্তার খুব পেশাদার।",
+    date: "2025-03-22",
+    profileImage: "https://i.ibb.co.com/jPCCYh3G/360-F-364211147-1qg-LVxv1-Tcq0-Ohz3-Faw-Ufrt-ONzz8nq3e.jpg"
+  },
+  {
+    name: "মেহজাবীন চৌধুরী",
+    rating: 4.6,
+    review: "দ্রুত এবং দক্ষ চিকিৎসা পেয়েছি। সুপারিশ করব।",
+    date: "2025-03-20",
+    profileImage: "https://i.ibb.co.com/1YwZhT5n/images.jpg"
+  },
+  {
+    name: "জুবায়ের রহমান",
+    rating: 4.3,
+    review: "পরিষেবা মোটামুটি। কিছুটা বিলম্ব হয়েছে।",
+    date: "2025-03-17",
+    profileImage: "https://i.ibb.co.com/GQ2LKL9X/premium-photo-1688740375397-34605b6abe48.jpg"
+  },
+  {
+    name: "সুমাইয়া ইসলাম",
+    rating: 4.9,
+    review: "ডাক্তার অত্যন্ত বন্ধুসুলভ ছিলেন। খুব ভালো লেগেছে।",
+    date: "2025-03-15",
+    profileImage: "https://i.ibb.co.com/jPCCYh3G/360-F-364211147-1qg-LVxv1-Tcq0-Ohz3-Faw-Ufrt-ONzz8nq3e.jpg"
+  },
+  {
+    name: "নাজমুল হাসান",
+    rating: 4.4,
+    review: "দীর্ঘদিন পর এমন সেবা পেলাম। ধন্যবাদ!",
+    date: "2025-03-12",
+    profileImage: "https://i.ibb.co.com/1YwZhT5n/images.jpg"
+  },
+  {
+    name: "রাবেয়া খাতুন",
+    rating: 4.7,
+    review: "চিকিৎসা সেবার মান অনেক ভালো। সময়মতো সবকিছু হয়েছে।",
+    date: "2025-03-09",
+    profileImage: "https://i.ibb.co.com/GQ2LKL9X/premium-photo-1688740375397-34605b6abe48.jpg"
+  },
+  {
+    name: "শফিকুল ইসলাম",
+    rating: 3.9,
+    review: "কিছুটা ভিড় ছিল, তবে সার্ভিস মোটামুটি ভালো।",
+    date: "2025-03-05",
+    profileImage: "https://i.ibb.co.com/jPCCYh3G/360-F-364211147-1qg-LVxv1-Tcq0-Ohz3-Faw-Ufrt-ONzz8nq3e.jpg"
+  },
+  {
+    name: "মিতা রহমান",
+    rating: 5.0,
+    review: "সবকিছু পারফেক্ট ছিল। ডাক্তার খুবই আন্তরিক।",
+    date: "2025-03-01",
+    profileImage: "https://i.ibb.co.com/1YwZhT5n/images.jpg"
+  }
+]
+
+
 
 export {
   clothingData,
@@ -1559,5 +1668,6 @@ export {
   mobileAppData,
   websiteData,
   beautyProducts,
-  designServices
+  designServices,
+  reviewData
 };
