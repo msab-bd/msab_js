@@ -1,4 +1,5 @@
 
+import ReviewSection from "@/components/share/ReviewSection";
 import AboutSection from "@/pages/aboutSection";
 import FaqSection from "@/pages/home/FaqSection";
 import Hero from "@/pages/home/hero";
@@ -13,7 +14,7 @@ export default function Home() {
       <FaqSection />
       <LatestBlog />
       <AboutSection />
-      
+      <ReviewSection/>
     </div>
   );
 }
