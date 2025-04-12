@@ -1,10 +1,8 @@
 import React from 'react'
 
 
-
-
-import HotelCard from '@/components/allCard/HotelRentCart';
 import hotelData from '@/utils/hotelData';
+import HotelCard from '@/components/allCard/HotelRentCart';
 
 const page = () => {
  
