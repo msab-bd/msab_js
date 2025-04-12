@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-import HotelCard from '@/components/allCard/hotelRentCart';
+import HotelCard from '@/components/allCard/HotelRentCart';
 import hotelData from '@/utils/hotelData';
 
 const page = () => {
