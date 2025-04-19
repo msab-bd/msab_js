@@ -7,6 +7,7 @@ import { MapPin, CalendarDays } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
+import Link from 'next/link';
 
 const TourPackageCard = ({ tour }) => {
     const {
@@ -102,9 +103,12 @@ const TourPackageCard = ({ tour }) => {
                     <span className="text-gray-500 text-xs block mb-2">
                         যোগাযোগ: {contact_number}
                     </span>
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white rounded-full">
-                        বিস্তারিত দেখুন
-                    </Button>
+                    <Link href={`/services/tour/${tour.package_id}`}>
+                        <Button className="w-full bg-green-600 cursor-pointer hover:bg-green-700 text-white rounded-full">
+                            বিস্তারিত দেখুন
+                        </Button>
+
+                    </Link>
                 </div>
             </div>
         </div>

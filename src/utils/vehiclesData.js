@@ -62,7 +62,7 @@ const vehiclesData = [
     },
     {
       id: 5,
-      image: "https://i.ibb.co.com/mrdQznXT/7367536-3646377.jpgk",
+      image: "https://i.ibb.co.com/mrdQznXT/7367536-3646377.jpg",
       title: "নিসান সানি ২০১৬",
       price: 180000, // দাম
       location: "খুলনা",

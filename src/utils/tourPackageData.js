@@ -1,6 +1,6 @@
 const tourPackages = [
     {
-        "package_id": "001",
+        "package_id": "1",
         "name": "সুন্দরবন অ্যাডভেঞ্চার ট্যুর",
         "location": "সুন্দরবন, খুলনা, বাংলাদেশ",
         "duration_days": 3,
@@ -26,7 +26,7 @@ const tourPackages = [
         "email": "info@sundarbantour.com"
     },
     {
-        "package_id": "002",
+        "package_id": "2",
         "name": "কক্সবাজার সি-বিচ হলিডে",
         "location": "কক্সবাজার, বাংলাদেশ",
         "duration_days": 4,
@@ -52,7 +52,7 @@ const tourPackages = [
         "email": "booking@coxholidays.com"
     },
     {
-        "package_id": "003",
+        "package_id": "3",
         "name": "সাজেক ভ্যালি এক্সপ্লোরেশন",
         "location": "সাজেক ভ্যালি, রাঙামাটি, বাংলাদেশ",
         "duration_days": 2,
@@ -78,7 +78,7 @@ const tourPackages = [
         "email": "explore@sajekvalleytour.com"
     },
     {
-        "package_id": "004",
+        "package_id": "4",
         "name": "সিলেট-জাফলং ও রাতারগুল সফর",
         "location": "সিলেট, বাংলাদেশ",
         "duration_days": 3,
@@ -104,7 +104,7 @@ const tourPackages = [
         "email": "travel@sylhetpackage.com"
     },
     {
-        "package_id": "005",
+        "package_id": "5",
         "name": "বান্দরবন পাহাড়ি ভ্রমণ",
         "location": "বান্দরবন, চট্টগ্রাম, বাংলাদেশ",
         "duration_days": 3,
@@ -130,7 +130,7 @@ const tourPackages = [
         "email": "info@bandarbantours.com"
     },
     {
-        "package_id": "006",
+        "package_id": "6",
         "name": "সেন্টমার্টিন দ্বীপ ভ্রমণ",
         "location": "সেন্টমার্টিন, কক্সবাজার, বাংলাদেশ",
         "duration_days": 3,
@@ -156,7 +156,7 @@ const tourPackages = [
         "email": "booking@stmartintour.com"
     },
     {
-        "package_id": "007",
+        "package_id": "7",
         "name": "কাপ্তাই লেক অ্যাডভেঞ্চার",
         "location": "কাপ্তাই, রাঙামাটি, বাংলাদেশ",
         "duration_days": 2,
@@ -181,7 +181,7 @@ const tourPackages = [
         "email": "info@kaptailaketours.com"
     },
     {
-        "package_id": "008",
+        "package_id": "8",
         "name": "পাহাড়পুর বৌদ্ধ বিহার ট্যুর",
         "location": "নওগাঁ, রাজশাহী, বাংলাদেশ",
         "duration_days": 1,
@@ -206,7 +206,7 @@ const tourPackages = [
         "email": "heritage@paharpurtrip.com"
     },
     {
-        "package_id": "009",
+        "package_id": "9",
         "name": "সোনারগাঁও হেরিটেজ ট্যুর",
         "location": "সোনারগাঁও, নারায়ণগঞ্জ, বাংলাদেশ",
         "duration_days": 1,

@@ -1,6 +1,6 @@
 const hotelData = [
     {
-      "hotel_id": "H001",
+      "hotel_id": "1",
       "name": "দ্য গ্র্যান্ড ঢাকা",
       "address": "১২৩ গুলশান এভিনিউ, ঢাকা-১২১২, বাংলাদেশ",
       "latitude": 23.7912,
@@ -37,7 +37,7 @@ const hotelData = [
       "check_out_time": "১২:০০"
     },
     {
-      "hotel_id": "H002",
+      "hotel_id": "2",
       "name": "হোটেল লেক ভিউ",
       "address": "৪৫ বনানী রোড, ঢাকা-১২১৩, বাংলাদেশ",
       "latitude": 23.7985,
@@ -71,7 +71,7 @@ const hotelData = [
       "check_out_time": "১১:০০"
     },
     {
-      "hotel_id": "H003",
+      "hotel_id": "3",
       "name": "সিটি সেন্টার ইন",
       "address": "৭৮ মতিঝিল বাণিজ্যিক এলাকা, ঢাকা-১০০০, বাংলাদেশ",
       "latitude": 23.7298,
@@ -102,7 +102,7 @@ const hotelData = [
       "check_out_time": "১২:০০"
     },
     {
-      "hotel_id": "H004",
+      "hotel_id": "4",
       "name": "গ্রিন ওয়েসিস রিসোর্ট",
       "address": "ঢাকার উপকণ্ঠে (নির্দিষ্ট ঠিকানা যোগ করা হবে)",
       "latitude": null,
@@ -135,7 +135,7 @@ const hotelData = [
       "check_out_time": "১১:০০"
     },
     {
-      "hotel_id": "H005",
+      "hotel_id": "5",
       "name": "কমফোর্ট স্টে ঢাকা",
       "address": "৬৭ মিরপুর রোড, ঢাকা-১২০৭, বাংলাদেশ",
       "latitude": 23.7456,
@@ -166,7 +166,7 @@ const hotelData = [
       "check_out_time": "১২:০০"
     },
     {
-      "hotel_id": "H006",
+      "hotel_id": "6",
       "name": "প্যান প্যাসিফিক সোনারগাঁও ঢাকা",
       "address": "১০৭ কাজী নজরুল ইসলাম এভিনিউ, ঢাকা ১২১৫, বাংলাদেশ",
       "latitude": 23.7480,
@@ -203,7 +203,7 @@ const hotelData = [
       "check_out_time": "১২:০০"
     },
     {
-      "hotel_id": "H007",
+      "hotel_id": "7",
       "name": "হোটেল আমারি ঢাকা",
       "address": "৪১ কামাল আতাতুর্ক এভিনিউ, ঢাকা ১২১৩, বাংলাদেশ",
       "latitude": 23.8050,
@@ -238,7 +238,7 @@ const hotelData = [
       "check_out_time": "১২:০০"
     },
     {
-      "hotel_id": "H008",
+      "hotel_id": "8",
       "name": "বেস্ট ওয়েস্টার্ন প্লাস ম্যাপল লিফ",
       "address": "৯/এ উত্তর গুলশান বাণিজ্যিক এলাকা, ঢাকা ১২১২, বাংলাদেশ",
       "latitude": 23.7950,

@@ -1,6 +1,6 @@
 const travelAgents = [
     {
-      "agent_id": "TA001",
+      "agent_id": "1",
       "name": "বাংলাদেশ ট্যুরিজম এজেন্সি",
       "location": "ঢাকা, বাংলাদেশ",
       "services": [
@@ -20,7 +20,7 @@ const travelAgents = [
       ]
     },
     {
-      "agent_id": "TA002",
+      "agent_id": "2",
       "name": "এডভেঞ্চার বাংলাদেশ",
       "location": "চট্টগ্রাম, বাংলাদেশ",
       "services": [
@@ -40,7 +40,7 @@ const travelAgents = [
       ]
     },
     {
-      "agent_id": "TA003",
+      "agent_id": "3",
       "name": "বাংলাদেশ ট্রাভেল প্লান",
       "location": "সিলেট, বাংলাদেশ",
       "services": [
@@ -60,7 +60,7 @@ const travelAgents = [
       ]
     },
     {
-      "agent_id": "TA004",
+      "agent_id": "4",
       "name": "এক্সপ্লোর বাংলাদেশ",
       "location": "রাজশাহী, বাংলাদেশ",
       "services": [
@@ -80,7 +80,7 @@ const travelAgents = [
       ]
     },
     {
-      "agent_id": "TA005",
+      "agent_id": "5",
       "name": "হলিডে বাংলাদেশ",
       "location": "মেহেরপুর, বাংলাদেশ",
       "services": [
@@ -100,7 +100,7 @@ const travelAgents = [
       ]
     },
     {
-      "agent_id": "TA006",
+      "agent_id": "6",
       "name": "ভ্রমণ ডট কম",
       "location": "খুলনা, বাংলাদেশ",
       "services": [
@@ -120,7 +120,7 @@ const travelAgents = [
       ]
     },
     {
-      "agent_id": "TA007",
+      "agent_id": "7",
       "name": "বাংলাদেশ এক্সপ্লোরার",
       "location": "বরিশাল, বাংলাদেশ",
       "services": [
@@ -140,7 +140,7 @@ const travelAgents = [
       ]
     },
     {
-      "agent_id": "TA008",
+      "agent_id": "8",
       "name": "বাংলা হানিমুন প্যাকেজ",
       "location": "রাজশাহী, বাংলাদেশ",
       "services": [

@@ -121,4 +121,4 @@ const houseData = [
     }
   ]
 
-export default houseData  
+export default houseData ; 

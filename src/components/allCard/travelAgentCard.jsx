@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { MapPin, Phone } from 'lucide-react';
 import { Button } from "@/components/ui/button";
+import Link from 'next/link';
 
 const TravelAgentCard = ({ agent }) => {
     const {
@@ -64,9 +65,13 @@ const TravelAgentCard = ({ agent }) => {
                     <span className="text-gray-500 text-xs block mb-2 flex items-center">
                         <Phone className="mr-1 h-3 w-3 md:h-4 md:w-4" /> {contact_number}
                     </span>
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white rounded-full text-sm md:text-base">
-                        বিস্তারিত দেখুন
-                    </Button>
+
+                    <Link href={`/services/travelAgent/${agent.agent_id}`}>
+                        <Button className="w-full bg-green-600 cursor-pointer hover:bg-green-700 text-white rounded-full text-sm md:text-base">
+                            বিস্তারিত দেখুন
+                        </Button>
+
+                    </Link>
                 </div>
             </div>
         </div>

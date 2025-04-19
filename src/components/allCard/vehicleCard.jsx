@@ -3,6 +3,7 @@ import Image from "next/image";
 import { MapPin, GaugeCircle, Fuel, } from "lucide-react";
 import { FcEngineering } from "react-icons/fc";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const VehicleCard = ({ item }) => {
   const { title, location, price, image, year, mileage, fuel, engine } = item;
@@ -15,13 +16,12 @@ const VehicleCard = ({ item }) => {
           src={image}
           sizes="(max-width: 768px) 100vw, 50vw"
           alt={title}
-          layout="fill"
+          layout="responsive"
+          width={500}
+          height={300}
           objectFit="cover"
           className="rounded-t-3xl"
         />
-        <span className="absolute top-4 left-4 bg-green-600 text-white text-xs px-3 py-1 rounded-full shadow">
-          Available
-        </span>
       </div>
 
       {/* Content */}
@@ -52,9 +52,11 @@ const VehicleCard = ({ item }) => {
 
         {/* Button */}
         <div className="pt-4">
-          <Button className="w-full bg-green-600 hover:bg-green-700 text-white rounded-full">
-            বিস্তারিত দেখুন
-          </Button>
+          <Link href={`/vehicle/${item.id}`}>
+            <Button className="w-full bg-green-600 cursor-pointer hover:bg-green-700 text-white rounded-full">
+              বিস্তারিত দেখুন
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
@@ -62,3 +64,7 @@ const VehicleCard = ({ item }) => {
 };
 
 export default VehicleCard;
+
+
+
+
