@@ -4,6 +4,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Button } from "@/components/ui/button";
+import Link from 'next/link';
 
 const HeadphoneCard = ({ headphone }) => {
     const {
@@ -45,7 +46,7 @@ const HeadphoneCard = ({ headphone }) => {
                     </div>
                 </div>
                 <div className="mt-4">
-                    <p className="text-sm text-gray-800 mb-2">{description}</p>
+                    {/* <p className="text-sm text-gray-800 mb-2">{description}</p> */}
                     <h4 className="text-sm font-semibold text-gray-700 mb-1">ফিচার সমূহ:</h4>
                     <ul className="list-disc list-inside text-gray-600 text-xs mb-3">
                         {features.slice(0, 3).map((feature, index) => (
@@ -57,14 +58,16 @@ const HeadphoneCard = ({ headphone }) => {
                             </li>
                         )}
                     </ul>
-                    <p className="text-gray-800 text-sm mb-1">যোগাযোগ: {contact_number}</p>
-                    <p className="text-gray-800 text-sm mb-3">ইমেইল: {email}</p>
+                    {/* <p className="text-gray-800 text-sm mb-1">যোগাযোগ: {contact_number}</p> */}
+                    {/* <p className="text-gray-800 text-sm mb-3">ইমেইল: {email}</p> */}
                     {/* <Button className="w-full bg-green-700 hover:bg-green-900 text-white font-bold py-2 rounded-md text-sm">
                         বিস্তারিত দেখুন
                     </Button> */}
-                    <Button className="w-full bg-green-700 hover:bg-green-900 text-white font-bold py-2 rounded-md text-sm">
-                        বিস্তারিত দেখুন
-                    </Button>
+                    <Link href={`/services/headPhone/${headphone.product_id}`} className="w-full">
+                        <Button className="w-full cursor-pointer bg-green-700 hover:bg-green-900 text-white font-bold py-2 rounded-md text-sm">
+                            বিস্তারিত দেখুন
+                        </Button>
+                    </Link>
 
                 </div>
             </div>

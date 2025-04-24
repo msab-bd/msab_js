@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Button } from "../ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardTitle } from "../ui/card"
+import Link from "next/link"
 
 const ClothingCard = ({ clothing }) => {
 
@@ -23,8 +24,10 @@ const ClothingCard = ({ clothing }) => {
                 <CardTitle>${price}</CardTitle>
             </CardContent>
             <CardFooter>
-                <div className="flex gap-5 justify-between">
-                    <Button>View Details</Button>
+                <div className="flex  gap-5 justify-between">
+                    <div>
+                        <Link href={`/services/clothing/${clothing.id}`}><Button  className={"cursor-pointer"}>View Details</Button></Link>
+                    </div>
                     <Button >Add to Cart</Button>
                 </div>
             </CardFooter>

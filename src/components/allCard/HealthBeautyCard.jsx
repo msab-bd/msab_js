@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from 'next/link';
 
 const HealthBeautyCard = ({ service }) => {
   const {
@@ -26,7 +27,7 @@ const HealthBeautyCard = ({ service }) => {
             src={image_urls?.[0] || "/placeholder.jpg"}
             alt={title}
             fill
-            className="object-cover"
+            className="object-cover responsive-image bg-gray-100"
             sizes="100%"
           />
         </div>
@@ -39,17 +40,20 @@ const HealthBeautyCard = ({ service }) => {
           <p><strong>মূল্য:</strong> {price}</p>
           <p><strong>সময়কাল:</strong> {duration}</p>
           <p><strong>সুবিধা:</strong> {benefits}</p>
-          <p className="text-[15px] font-normal text-gray-700 mb-2">{description}</p>
-          <p><strong>ফোন:</strong> {contact_number}</p>
-          <p><strong>ইমেইল:</strong> {email}</p>
+          {/* <p className="text-[15px] font-normal text-gray-700 mb-2">{description}</p> */}
+          {/* <p><strong>ফোন:</strong> {contact_number}</p> */}
+          {/* <p><strong>ইমেইল:</strong> {email}</p> */}
         </div>
       </CardContent>
 
       {/* Card Footer */}
       <CardFooter>
-        <Button className="w-full bg-green-700 hover:bg-green-900 text-white text-[18px] py-2 rounded-md">
-          বিস্তারিত দেখুন
-        </Button>
+        <Link href={`/services/health-beauty/${service.id}`} className="w-full">
+          <Button className="w-full cursor-pointer bg-green-700 hover:bg-green-900 text-white text-[18px] py-2 rounded-md">
+            বিস্তারিত দেখুন
+          </Button>
+
+        </Link>
       </CardFooter>
     </Card>
   );

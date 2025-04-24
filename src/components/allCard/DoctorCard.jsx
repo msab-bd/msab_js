@@ -2,7 +2,9 @@ import React from 'react'
 import { Card, CardContent, CardFooter, CardTitle } from '../ui/card'
 import Image from 'next/image'
 import { Button } from '../ui/button'
-import { VideoIcon, Star } from 'lucide-react'
+import { Star } from 'lucide-react'
+import Link from 'next/link'
+// import { VideoIcon } from 'lucide-react'
 
 const DoctorCard = ({ doctor }) => {
   const {
@@ -41,10 +43,20 @@ const DoctorCard = ({ doctor }) => {
       </CardContent>
 
       <CardFooter className="p-4">
-        <Button className="w-full text-base">
-          <VideoIcon className="mr-2 w-5 h-5" />
-          এখনই ডক্টর দেখাও
-        </Button>
+        <div className="flex flex-row justify-between gap-2">
+          <Link href={`/services/doctor/${doctor.id}`} className="w-full">
+            <Button className="w-full bg-green-600 cursor-pointer hover:bg-green-700 text-white rounded-full text-sm md:text-base">
+              বিস্তারিত দেখুন
+            </Button>
+
+          </Link>
+          {/* <Button className="w-full bg-green-600 cursor-pointer hover:bg-green-700 text-white rounded-full text-sm md:text-base">
+            <VideoIcon className="mr-2 w-5 h-5" />
+            এখনই ডক্টর দেখাও
+          </Button> */}
+
+        </div>
+
       </CardFooter>
     </Card>
   )

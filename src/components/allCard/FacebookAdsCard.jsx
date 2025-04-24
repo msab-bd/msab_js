@@ -5,6 +5,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import Link from 'next/link';
 
 const FacebookAdsCard = ({ ad }) => {
   const {
@@ -44,9 +45,11 @@ const FacebookAdsCard = ({ ad }) => {
 
       {/* Card Footer */}
       <CardFooter>
-        <Button className="w-full bg-green-700 hover:bg-green-900 text-white text-[18px] py-2 rounded-md">
-          বিস্তারিত দেখুন
-        </Button>
+        <Link href={`/services/facebook/${ad.ad_id}`} className="w-full">
+          <Button className="w-full cursor-pointer bg-green-700 hover:bg-green-900 text-white text-[18px] py-2 rounded-md">
+            বিস্তারিত দেখুন
+          </Button>
+        </Link>
       </CardFooter>
     </Card>
   );

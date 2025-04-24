@@ -1,102 +1,103 @@
 const healthBeautyData = [
-    {
-      "id": 1,
-      "title": "ত্বকের যত্ন",
-      "price": "৳1500",
-      "duration": "১ মাস",
-      "benefits": "মসৃণ ত্বক, উজ্জ্বলতা বৃদ্ধি, দাগ দূরীকরণ",
-      "description": "ত্বকের স্বাস্থ্য বজায় রাখতে নিয়মিত পরিষ্কার, ময়েশ্চারাইজ এবং সানস্ক্রিন ব্যবহার করা উচিত। আমাদের বিশেষ স্কিন কেয়ার প্যাকেজ আপনাকে দিবে প্রাকৃতিক উজ্জ্বলতা।",
-      "image_urls": ["/images/skin-care.jpg"],
-      "contact_number": "০১৭xxxxxxxx",
-      "email": "skincare@example.com"
-    },
-    {
-      "id": 2,
-      "title": "চুলের যত্ন",
-      "price": "৳2000",
-      "duration": "২ মাস",
-      "benefits": "চুল পড়া কমানো, চুল ঘন ও মসৃণ করা",
-      "description": "চুলের সুস্থতা বজায় রাখতে আমাদের হেয়ার ট্রিটমেন্ট নিন। এতে রয়েছে প্রাকৃতিক উপাদান যা চুল পড়া কমিয়ে চুলকে করে তুলবে স্বাস্থ্যজ্জ্বল।",
-      "image_urls": ["/images/hair-care.jpg"],
-      "contact_number": "০১৮xxxxxxxx",
-      "email": "haircare@example.com"
-    },
-    {
-      "id": 3,
-      "title": "মানসিক স্বাস্থ্য",
-      "price": "৳3000",
-      "duration": "১ মাস",
-      "benefits": "মনকে শান্ত ও সতেজ রাখা",
-      "description": "আমাদের মেডিটেশন ও কাউন্সেলিং সেবা আপনার মানসিক চাপ কমিয়ে এনে দিবে প্রশান্তি।",
-      "image_urls": ["/images/mental-health.jpg"],
-      "contact_number": "০১৯xxxxxxxx",
-      "email": "mentalhealth@example.com"
-    },
-    {
-      "id": 4,
-      "title": "ফিটনেস ও ডায়েট প্ল্যান",
-      "price": "৳2500",
-      "duration": "১.৫ মাস",
-      "benefits": "ওজন নিয়ন্ত্রণ, সুস্থ ও শক্তিশালী শরীর",
-      "description": "আপনার শরীর ও স্বাস্থ্যের জন্য আমাদের বিশেষ ফিটনেস ও ডায়েট প্ল্যান, যা আপনাকে সুস্থ রাখতে সাহায্য করবে।",
-      "image_urls": ["/images/fitness-diet.jpg"],
-      "contact_number": "০১৬xxxxxxxx",
-      "email": "fitness@example.com"
-    },
-    {
-      "id": 5,
-      "title": "মাসাজ থেরাপি",
-      "price": "৳1800",
-      "duration": "১ ঘন্টা",
-      "benefits": "পেশী শিথিলকরণ, মানসিক প্রশান্তি",
-      "description": "আমাদের পেশাদার মাসাজ থেরাপি আপনাকে দেবে আরামদায়ক অনুভূতি ও পেশী শিথিলতা।",
-      "image_urls": ["/images/massage-therapy.jpg"],
-      "contact_number": "০১৫xxxxxxxx",
-      "email": "massage@example.com"
-    },
-    {
-      "id": 6,
-      "title": "হ্যান্ড ও ফুট কেয়ার",
-      "price": "৳1200",
-      "duration": "১ মাস",
-      "benefits": "মসৃণ হাত ও পা, মৃত কোষ দূরীকরণ",
-      "description": "হাত ও পায়ের সৌন্দর্য বজায় রাখতে আমাদের হ্যান্ড ও ফুট কেয়ার সার্ভিস নিতে ভুলবেন না।",
-      "image_urls": ["/images/hand-foot-care.jpg"],
-      "contact_number": "০১৪xxxxxxxx",
-      "email": "handfoot@example.com"
-    },
-    {
-      "id": 7,
-      "title": "ফেসিয়াল স্পা",
-      "price": "৳2500",
-      "duration": "৪৫ মিনিট",
-      "benefits": "ত্বকের উজ্জ্বলতা বৃদ্ধি, গভীর পরিচর্যা",
-      "description": "আপনার ত্বকের জন্য আমাদের বিশেষ ফেসিয়াল স্পা সার্ভিস, যা আপনার ত্বকে এনে দিবে সতেজতা।",
-      "image_urls": ["/images/facial-spa.jpg"],
-      "contact_number": "০১৩xxxxxxxx",
-      "email": "facialspa@example.com"
-    },
-    {
-      "id": 8,
-      "title": "যোগব্যায়াম ক্লাস",
-      "price": "৳3000",
-      "duration": "১ মাস",
-      "benefits": "শরীরের নমনীয়তা বৃদ্ধি, মানসিক প্রশান্তি",
-      "description": "যোগব্যায়াম শরীর এবং মনকে সুস্থ রাখতে সহায়ক। আমাদের ক্লাসে যোগ দিন ও সুস্থ থাকুন।",
-      "image_urls": ["/images/yoga-class.jpg"],
-      "contact_number": "০১২xxxxxxxx",
-      "email": "yoga@example.com"
-    },
-    {
-      "id": 9,
-      "title": "ডিটক্স প্রোগ্রাম",
-      "price": "৳3500",
-      "duration": "৩ দিন",
-      "benefits": "দেহের টক্সিন দূরীকরণ, উন্নত ত্বকের স্বাস্থ্য",
-      "description": "দেহের ভেতর থেকে টক্সিন দূর করতে আমাদের ডিটক্স প্রোগ্রাম নিন এবং সতেজ অনুভব করুন।",
-      "image_urls": ["/images/detox-program.jpg"],
-      "contact_number": "০১১xxxxxxxx",
-      "email": "detox@example.com"
-    }
-  ]
-  export default healthBeautyData;
+  {
+    id: 1,
+    title: "ত্বকের যত্ন",
+    price: "৳1500",
+    duration: "১ মাস",
+    benefits: "মসৃণ ত্বক, উজ্জ্বলতা বৃদ্ধি, দাগ দূরীকরণ",
+    description: "ত্বকের স্বাস্থ্য বজায় রাখতে নিয়মিত পরিষ্কার, ময়েশ্চারাইজ এবং সানস্ক্রিন ব্যবহার করা উচিত। আমাদের বিশেষ স্কিন কেয়ার প্যাকেজ আপনার ত্বককে করবে উজ্জ্বল, দাগমুক্ত এবং স্বাস্থ্যকর। এতে রয়েছে হারবাল ক্লিনজার, ময়েশ্চারাইজার ও সানস্ক্রিনের সমন্বয়, যা প্রতিদিনের ত্বকের যত্নে অসাধারণ উপযোগী। এটি সব ধরনের ত্বকের জন্য উপযোগী এবং কোনো পার্শ্বপ্রতিক্রিয়া নেই।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১৭xxxxxxxx",
+    email: "skincare@example.com"
+  },
+  {
+    id: 2,
+    title: "চুলের যত্ন",
+    price: "৳2000",
+    duration: "২ মাস",
+    benefits: "চুল পড়া কমানো, চুল ঘন ও মসৃণ করা",
+    description: "আপনার চুলের সুস্থতা নিশ্চিত করতে আমাদের চুলের যত্ন প্যাকেজে রয়েছে গভীর পুষ্টিকর তেল ম্যাসাজ, হেয়ার প্যাক এবং ডিপ কন্ডিশনিং ট্রিটমেন্ট। এটি চুলের গোড়ায় পুষ্টি সরবরাহ করে, চুল পড়া কমায় এবং চুলকে করে তুলবে ঘন, মসৃণ ও চকচকে। নিয়মিত ব্যবহারে চুল পুনরায় বৃদ্ধি পেতে সাহায্য করে।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১৮xxxxxxxx",
+    email: "haircare@example.com"
+  },
+  {
+    id: 3,
+    title: "মানসিক স্বাস্থ্য",
+    price: "৳3000",
+    duration: "১ মাস",
+    benefits: "মনকে শান্ত ও সতেজ রাখা",
+    description: "আজকের ব্যস্ত জীবনে মানসিক চাপ বেড়ে যাওয়াটা সাধারণ একটি বিষয়। আমাদের মানসিক স্বাস্থ্য সেবায় রয়েছে লাইসেন্সপ্রাপ্ত কাউন্সেলরের গাইডেড সেশন্স, মেডিটেশন ও রিলাক্সেশন থেরাপি। এই প্রোগ্রাম আপনার আত্মবিশ্বাস বাড়াতে এবং স্ট্রেস কমাতে সহায়তা করবে। এটি আপনার মন ও মেজাজ স্থিতিশীল রাখতে সাহায্য করে।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১৯xxxxxxxx",
+    email: "mentalhealth@example.com"
+  },
+  {
+    id: 4,
+    title: "ফিটনেস ও ডায়েট প্ল্যান",
+    price: "৳2500",
+    duration: "১.৫ মাস",
+    benefits: "ওজন নিয়ন্ত্রণ, সুস্থ ও শক্তিশালী শরীর",
+    description: "আমাদের ফিটনেস ও ডায়েট প্ল্যানে রয়েছে পার্সোনাল ট্রেইনারের তত্ত্বাবধানে এক্সারসাইজ সেশন, ক্যালরি ব্যালান্সড মিল প্ল্যান ও হাইড্রেশন গাইড। এটি ওজন হ্রাস ও শক্তি বৃদ্ধির পাশাপাশি, আপনার ইমিউনিটি এবং মেটাবলিজম বাড়াতেও সহায়ক। প্রতিটি প্ল্যান নির্দিষ্ট ব্যক্তির শারীরিক কাঠামো অনুযায়ী সাজানো।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১৬xxxxxxxx",
+    email: "fitness@example.com"
+  },
+  {
+    id: 5,
+    title: "মাসাজ থেরাপি",
+    price: "৳1800",
+    duration: "১ ঘন্টা",
+    benefits: "পেশী শিথিলকরণ, মানসিক প্রশান্তি",
+    description: "শরীর ও মনের ক্লান্তি দূর করতে চাইলে মাসাজ থেরাপি একটি চমৎকার উপায়। আমাদের অভিজ্ঞ থেরাপিস্ট দ্বারা প্রদত্ত ডিপ টিস্যু ও সুইডিশ মাসাজ আপনাকে দেবে সম্পূর্ণ আরাম ও রিলাক্সেশন। এটি রক্ত সঞ্চালন বৃদ্ধি করে, শরীরের ব্যথা কমায় এবং গভীর ঘুমে সহায়তা করে।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১৫xxxxxxxx",
+    email: "massage@example.com"
+  },
+  {
+    id: 6,
+    title: "হ্যান্ড ও ফুট কেয়ার",
+    price: "৳1200",
+    duration: "১ মাস",
+    benefits: "মসৃণ হাত ও পা, মৃত কোষ দূরীকরণ",
+    description: "হাত ও পায়ের সুস্থতা ও সৌন্দর্য বজায় রাখতে নিয়মিত হ্যান্ড ও ফুট কেয়ার অপরিহার্য। আমাদের এই সার্ভিসে রয়েছে স্ক্রাবিং, মাসাজ, নেল কেয়ার ও প্যারা‌ফিন ওয়্যাক্স ট্রিটমেন্ট। এটি ডেড স্কিন দূর করে ও ত্বককে করে কোমল ও ঝকঝকে।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১৪xxxxxxxx",
+    email: "handfoot@example.com"
+  },
+  {
+    id: 7,
+    title: "ফেসিয়াল স্পা",
+    price: "৳2500",
+    duration: "৪৫ মিনিট",
+    benefits: "ত্বকের উজ্জ্বলতা বৃদ্ধি, গভীর পরিচর্যা",
+    description: "আমাদের ফেসিয়াল স্পা সার্ভিস ত্বকের গভীরে পরিচর্যা করে, যার ফলে ত্বক হয় উজ্জ্বল, মসৃণ এবং প্রাণবন্ত। এতে রয়েছে স্টিম, এক্সফোলিয়েশন, মাস্ক ও ময়েশ্চারাইজিং ট্রিটমেন্ট। এটি মৃত কোষ দূর করে, রোমকূপ পরিষ্কার করে এবং ত্বককে করে হাইড্রেটেড ও সতেজ।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১৩xxxxxxxx",
+    email: "facialspa@example.com"
+  },
+  {
+    id: 8,
+    title: "যোগব্যায়াম ক্লাস",
+    price: "৳3000",
+    duration: "১ মাস",
+    benefits: "শরীরের নমনীয়তা বৃদ্ধি, মানসিক প্রশান্তি",
+    description: "যোগব্যায়াম কেবল শারীরিক নয় বরং মানসিক শান্তির জন্যও উপকারী। আমাদের অভিজ্ঞ প্রশিক্ষকের তত্ত্বাবধানে প্রতিদিনের ক্লাসে অংশগ্রহণ করুন এবং শেখুন বিভিন্ন আসন ও শ্বাস-প্রশ্বাসের নিয়ম। এটি শরীরকে নমনীয় করে এবং মানসিক চাপ দূর করতে সাহায্য করে।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১২xxxxxxxx",
+    email: "yoga@example.com"
+  },
+  {
+    id: 9,
+    title: "ডিটক্স প্রোগ্রাম",
+    price: "৳3500",
+    duration: "৩ দিন",
+    benefits: "দেহের টক্সিন দূরীকরণ, উন্নত ত্বকের স্বাস্থ্য",
+    description: "দেহকে অভ্যন্তরীণভাবে পরিষ্কার করতে ডিটক্স প্রোগ্রাম অত্যন্ত কার্যকর। আমাদের এই প্রোগ্রামে রয়েছে বিশেষ হেলদি ডিটক্স জুস, লিভার ক্লিনজিং ফুড ও লাইট এক্সারসাইজ প্ল্যান। এটি আপনার হজম শক্তি বাড়ায়, ত্বক করে উজ্জ্বল এবং শক্তি ফিরে পেতে সাহায্য করে।",
+    image_urls: ["https://i.ibb.co.com/LdYq0L65/pmv-chamara-wy7-OK3c-Fq-AY-unsplash.jpg"],
+    contact_number: "০১১xxxxxxxx",
+    email: "detox@example.com"
+  }
+];
+
+export default healthBeautyData;

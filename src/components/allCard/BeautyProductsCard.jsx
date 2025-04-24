@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Card, CardContent, CardFooter } from "../ui/card";
+import Link from "next/link";
+import { Button } from "../ui/button";
 
 const BeautyProductsCard = ({ item }) => {
     const { name, description, image, price } = item || {};
@@ -17,9 +19,12 @@ const BeautyProductsCard = ({ item }) => {
                         </div>
                     </div>
                     <div className="flex gap-4 mt-4 text-sm">
-                        <button className="flex-1 bg-green-600 text-white py-2 rounded-xl hover:bg-green-700 transition-all">
-                            বিস্তারিত দেখুন
-                        </button>
+                        <Link href={`/services/beautyProducts/${item.id}`} className="cursor-pointer">
+                            <Button className={"cursor-pointer bg-green-600 text-white py-2 rounded-xl hover:bg-green-700 transition-all"}>
+                                বিস্তারিত দেখুন
+                            </Button>
+
+                        </Link>
                         <button className="flex-1 bg-emerald-500 text-white py-2 rounded-xl hover:bg-emerald-600 transition-all">
                             কার্টে যোগ করুন
                         </button>

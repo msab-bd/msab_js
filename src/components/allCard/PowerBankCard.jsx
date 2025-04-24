@@ -5,6 +5,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import Link from 'next/link';
 
 const PowerBankCard = ({ powerBank }) => {
   const {
@@ -19,7 +20,7 @@ const PowerBankCard = ({ powerBank }) => {
   } = powerBank;
 
   return (
-    <Card className="w-9/12 mx-auto rounded-2xl shadow-md pt-0 flex flex-col justify-between h-full">           
+    <Card className="w-9/12 mx-auto rounded-2xl shadow-md pt-0 flex flex-col justify-between h-full">
 
       {/* Card Header */}
       <CardHeader className="px-0">
@@ -39,8 +40,8 @@ const PowerBankCard = ({ powerBank }) => {
       <CardContent className="text-[15px]  flex-grow flex flex-col justify-between">
         <div>
           <p><strong>Price:</strong> ৳{price}</p>
-          <p className="text-[15px] font-bold text-gray-700 mb-2">{description}</p>
-          
+          {/* <p className="text-[15px] font-bold text-gray-700 mb-2">{description}</p> */}
+
           {/* Features List - scrollable if too long */}
           <ul className="list-disc list-inside text-black text-[15px]  font-semibold mb-2 max-h-24 overflow-y-auto pr-2">
             {features.map((feature, index) => (
@@ -52,9 +53,13 @@ const PowerBankCard = ({ powerBank }) => {
 
       {/* Card Footer */}
       <CardFooter>
-        <Button className="w-full bg-green-700 hover:bg-green-900 text-white text-[18px]  py-2 rounded-md">
-          বিস্তারিত দেখুন
-        </Button>
+        <Link href={`/services/powerBank/${powerBank.product_id}`} className="w-full">
+
+          <Button className="w-full cursor-pointer bg-green-700 hover:bg-green-900 text-white text-[18px]  py-2 rounded-md">
+            বিস্তারিত দেখুন
+          </Button>
+
+        </Link>
       </CardFooter>
     </Card>
   );

@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function MedicineCard({ med }) {
     const {
@@ -46,8 +47,13 @@ export default function MedicineCard({ med }) {
                 )}
             </CardContent>
             <CardFooter>
-                <Button className="w-full">Add to Cart</Button>
+                {/* <Button className="w-full">Add to Cart</Button> */}
+                <Link href={`/services/medicine/${ med.id}`} className="w-full">
+                    <Button className="w-full bg-green-600 cursor-pointer hover:bg-green-700 text-white rounded-full text-sm md:text-base">
+                        বিস্তারিত দেখুন
+                    </Button>
+                </Link>
             </CardFooter>
-        </Card>
+        </Card >
     )
 }

@@ -3,6 +3,7 @@ import { Star, Phone, Globe } from 'lucide-react'; // Import Phone and Globe ico
 import Image from 'next/image';
 import { Button } from '../ui/button';
 import { Card, CardContent, CardFooter, CardTitle } from '../ui/card';
+import Link from 'next/link';
 
 const HospitalCard = ({ hospitalItem }) => {
   const {
@@ -54,9 +55,13 @@ const HospitalCard = ({ hospitalItem }) => {
       </CardContent>
 
       <CardFooter className="p-4">
-        <Button className="w-full text-base">
-          ভিজিট করুন
-        </Button>
+        <Link href={`/services/hospital/${hospitalItem.appointmentId}`} className="w-full">
+          <Button className="w-full cursor-pointer text-base">
+            ভিজিট করুন
+          </Button>
+
+
+        </Link>
       </CardFooter>
     </Card>
   );

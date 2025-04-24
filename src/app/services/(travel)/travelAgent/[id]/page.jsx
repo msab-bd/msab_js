@@ -1,17 +1,3 @@
-// import { useParams } from "next/router";
-// import TravelAgentDetails from "@/components/allCard/TravelAgentDetails";
-// import travelAgents from "@/utils/travelAgentData";
-
-// export default function TravelAgentPage() {
-//   const { id } = useParams();
-//   const agent = travelAgents.find((a) => a.agent_id === id);
-
-//   if (!agent) {
-//     return <p>Agent not found.</p>;
-//   }
-
-//   return <TravelAgentDetails agent={agent} />;
-// }
 
 "use client";
 

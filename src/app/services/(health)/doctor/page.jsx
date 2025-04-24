@@ -1,5 +1,6 @@
 import DoctorCard from "@/components/allCard/DoctorCard"
-import { doctorData } from "@/utils/service"
+import doctorData from "@/utils/doctorData"
+
 
 
 const page = () => {
